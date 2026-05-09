@@ -1,0 +1,77 @@
+<div class="min-h-screen flex items-start sm:items-center justify-center bg-gray-100 p-3 sm:p-6">
+
+  <!-- RESULT PAGE -->
+  @if(isFinished()){
+    <div class="w-full max-w-xl bg-white rounded-2xl shadow-lg p-6 text-center space-y-4">
+      <h2 class="text-2xl font-bold text-gray-800">Natija</h2>
+      <p class="text-lg text-gray-600">
+        Siz {{score()}} / {{total()}} to‘g‘ri topdingiz
+      </p>
+           <button
+        (click)="returnTest()"
+        class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+        Testni Qayta boshlash
+      </button>
+    </div>
+  }
+
+  <!-- QUIZ -->
+  @if(!isFinished() && currentTest(); as test){
+    <div class="w-full max-w-xl bg-white rounded-2xl shadow-lg p-4 sm:p-6 space-y-5">
+
+      <!-- HEADER -->
+      <div class="flex justify-between items-center text-sm text-gray-600">
+        <span>{{currentIndex() + 1}} / {{total()}}</span>
+        <span class="text-red-500 font-semibold">{{timeLeft()}}s</span>
+      </div>
+
+      <!-- Savol -->
+      <div class="border-b pb-3 sm:pb-4">
+        <h3 class="text-lg sm:text-xl font-semibold text-gray-800">
+          {{test.savol}}
+          <img src="{{test.img}}" alt="IMG">
+        </h3>
+      </div>
+
+      <!-- Javoblar -->
+      @for(i of test.javob; track i.matn){
+
+        <label
+          (click)="selectAnswer(i)"
+          class="flex items-start sm:items-center gap-3 p-3 border rounded-xl transition cursor-pointer"
+          [ngClass]="{
+            'opacity-50 cursor-not-allowed': isLocked && selectedAnswer !== i,
+
+            'border-green-500 bg-green-50': isLocked  && i.correct,
+            'border-red-500 bg-red-50': isLocked && selectedAnswer === i && !i.correct
+          }"
+        >
+          <input 
+            type="radio" 
+            name="answer"
+            [disabled]="isLocked"
+            class="mt-1 sm:mt-0 w-5 h-5"
+          />
+
+          <p class="text-sm sm:text-base">
+            {{i.matn}}
+          </p>
+        </label>
+
+      }
+
+      <!-- Button -->
+      <button
+        (click)="nextQuestion()"
+        class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+        Keyingi
+      </button>
+      <button
+        (click)="returnTest()"
+        class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+        Testni Qayta boshlash
+      </button>
+    </div>
+  }
+
+</div>
