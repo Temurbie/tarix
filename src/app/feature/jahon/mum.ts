@@ -10,5 +10,5 @@ import { DATATEST } from '../../data/testData';
 })
 export class MUM {
    data = DATATEST;
-   sendData = this.data.slice(100, 206)
+   sendData = this.data.slice(0,243)
 }

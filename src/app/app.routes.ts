@@ -7,10 +7,9 @@ import { Demo } from './feature/demo/demo';
 import { Home } from './feature/home/home';
 import { Choose } from './feature/choose/choose';
 import { Subjects } from './feature/subjects/subjects';
-import { MUM } from './feature/mum/mum';
-import { BTP } from './feature/btp/btp';
-import { OT } from './feature/ot/ot';
-import { Om } from './feature/om/om';
+import { MUM } from './feature/jahon/mum';
+import { OT } from './feature/utish/ot';
+import { Om } from './feature/uzb/om';
 
 export const routes: Routes = [
     {path : '' , redirectTo: "about", pathMatch: 'full' },
@@ -36,16 +35,13 @@ export const routes: Routes = [
         path: 'subjects', component: Subjects
     },
     {
-        path: 'mum', component: MUM
+        path: 'jahon', component: MUM
     },
     {
-        path: 'btp', component: BTP
+        path: 'utish', component: OT
     },
     {
-        path: 'ot', component: OT
-    },
-    {
-        path: 'om', component: Om
+        path: 'uzb', component: Om
     }
 
 ];

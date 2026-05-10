@@ -3,13 +3,13 @@ import { WrapperTest } from "../../share/component/wrapper-test/wrapper-test";
 import { DATATEST } from '../../data/testData';
 
 @Component({
-  selector: 'app-ot',
+  selector: 'app-om',
   imports: [WrapperTest],
-  templateUrl: './ot.html',
-  styleUrl: './ot.css',
+  templateUrl: './om.html',
+  styleUrl: './om.css',
 })
-export class OT {
+export class Om {
 
-     data = DATATEST;
-     sendData = this.data.slice(206, 303)
+    data = DATATEST;
+       sendData = this.data.slice(402, 1000)
 }
