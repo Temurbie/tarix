@@ -2421,6 +2421,7 @@ export const DATATEST: ITest[] = [
     { matn: "Latviya, Litva, Estoniya", correct: true }
   ]
 },
+// tarix uqitish metodikasi fani
 {
     id: 242,
     savol: "Tarix o‘qitish jarayonining tarkibiy qismlariga quydagilardan qaysi biri tegishli?",
@@ -5452,6 +5453,7 @@ export const DATATEST: ITest[] = [
       { matn: "mil.avv.330-yil", correct: false }
     ]
   },
+  //jahon tarixi 
   {
     id: 545,
     savol: "Ahamoniylardan kimlarning hukmronligi davrida O’rta Osiyo xalqlari yunon-fors urushlarida qatnashgan edilar?",
@@ -5820,6 +5822,3156 @@ export const DATATEST: ITest[] = [
       { matn: "Dalvarzintepa", correct: true },
       { matn: "Zartepa", correct: false },
       { matn: "Qorovultepa", correct: false }
+    ]
+  },
+  {
+    "id": 582,
+    "savol": "Quyidagi tarixiy jarayonlardan qaysi biri haqiqatga to’g’ri keladi",
+    "javob": [
+      {
+        "matn": "O’zbekiston respublikasi Konstitutsiyasi ,,O’zbekiston respublikasining davlat mustaqilligi asoslari to’g’risidagi’’ qonun o’zbekiston respublikasi mudofaa ishlari vazirligini tuzish to’g’risidagi farmonda mustahkamlangan tamoyillar va g’oyalarni o’zida to’la mujassamlashtiradi.",
+        "correct": false
+      },
+      {
+        "matn": "O’zbekiston Respublikasi Konustitutsiyasini yaratish komissiyasi tarkibiga oliy kengash deputatlari davlat vtashkilotlari xalqaro huquq mutaxasislari va xorijiy ekspertlar kiritildi",
+        "correct": false
+      },
+      {
+        "matn": "O’zbekiston Respublikasi Konstitutsiyasi loyihasi ustida ishlagan komissiya Davlat ramzlarini yaratish bo’yicha ham ish olib bordi",
+        "correct": true
+      },
+      {
+        "matn": "1992-yilning bahor oylarida o’zbekiston respublikasining konstitutsiyasi loyihasi umumxalq muhokamasi uchun 2-marta televideniyada e’lon qilindi.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 583,
+    "savol": "Mo‘g‘ul hukmdorlari orasida kim birinchi bo‘lib o‘z qarorgohini Movarounnahrga (Qarshiga) ko‘chiradi?",
+    "javob": [
+      {
+        "matn": "Chig‘atoy",
+        "correct": false
+      },
+      {
+        "matn": "Kebekxon",
+        "correct": true
+      },
+      {
+        "matn": "Munke",
+        "correct": false
+      },
+      {
+        "matn": "Tug‘luq Temur",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "savol": "Chingizxon istilo qilgan hududlardan Movarounnahrni qaysi o’g’liga ulus qilib bergan edi?",
+    "javob": [
+      {
+        "matn": "Tulu",
+        "correct": false
+      },
+      {
+        "matn": "Jo’ji",
+        "correct": false
+      },
+      {
+        "matn": "Chig’atoy",
+        "correct": true
+      },
+      {
+        "matn": "O’qtoy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 585,
+    "savol": "Quyidagi qaysi atama mo‘g‘ulchada “nazoratchi”, “shahar boshlig‘i” degan ma’nolarni bildiradi?",
+    "javob": [
+      {
+        "matn": "Dorug‘a",
+        "correct": true
+      },
+      {
+        "matn": "Bosqoq",
+        "correct": false
+      },
+      {
+        "matn": "Noib",
+        "correct": false
+      },
+      {
+        "matn": "Tavg‘ach",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 586,
+    "savol": "Amir Temur tug‘ilgan Xo‘jailg‘or qishlog‘i hozirda qaysi tumanda joylashgan?",
+    "javob": [
+      {
+        "matn": "Qarshi",
+        "correct": false
+      },
+      {
+        "matn": "Kitob",
+        "correct": false
+      },
+      {
+        "matn": "Yakkabog‘",
+        "correct": true
+      },
+      {
+        "matn": "Shahrisabz",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 587,
+    "savol": "Ma’lumki, Amir Temur o‘limidan oldin mamlakatni o‘g‘illari va nabiralariga suyurg‘ol tarzida bo‘lib beradi. Suyurg‘ol egalarining markaziy hukumatga tobeligi nimalardan iborat edi?",
+    "javob": [
+      {
+        "matn": "Tashqi aloqalarni Amir Temur ruxsatisiz olib borishi mumkin bo‘lmagan va o‘z hududidan yig‘iladigan barcha soliqlarning 3/4 qismini murkaziy hukumat xazinasiga jo‘natgan",
+        "correct": false
+      },
+      {
+        "matn": "Hirojning bir qismini Samarqandga yuborib turish, oliy hukmdorning harbiy yurishlarida o‘z qo‘shini bilan qatnashish yoki belgilangan askarni yig‘ib berish",
+        "correct": true
+      },
+      {
+        "matn": "O‘z hududidan yig‘iladigan barcha soliqlarning yarmini murkaziy hukumat xazinasiga jo‘natgan, Samarqandda bo‘ladigan har yilgi hasharlarda o‘z odamlarining ishtirokini ta’minlash",
+        "correct": false
+      },
+      {
+        "matn": "boshqa mamlakatlar bilan aloqa qilmaslik, har oyda oliy hukumat dargohida hosobot berib turish va aholidan yig‘ilgan soliqlarni hukumat xazinasiga yuborish",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "savol": "Amir Temur davrida askariy qismlarni viloyatlardan to‘plash bilan qaysi mansabdagi amaldor shug‘ulangan?",
+    "javob": [
+      {
+        "matn": "Bahodir",
+        "correct": false
+      },
+      {
+        "matn": "Tavochi",
+        "correct": true
+      },
+      {
+        "matn": "Sohibi Surat",
+        "correct": false
+      },
+      {
+        "matn": "Sarxang",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 589,
+    "savol": ",,To’rt ulus tarixi’’ asarining muallifi kim?",
+    "javob": [
+      {
+        "matn": "Abdurazzoq Samarqandiy",
+        "correct": false
+      },
+      {
+        "matn": "Ali Yazdiy",
+        "correct": false
+      },
+      {
+        "matn": "Alisher Navoiy",
+        "correct": false
+      },
+      {
+        "matn": "Mirzo Ulug‘bek",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 590,
+    "savol": "Somоniylаr dаvlаtining pоytахti qаysi jаvоbdа to’g’ri ko’rsаtilgаn?",
+    "javob": [
+      {
+        "matn": "Toshkent",
+        "correct": false
+      },
+      {
+        "matn": "Buхоrо shаhri",
+        "correct": true
+      },
+      {
+        "matn": "Mаrv shаhri",
+        "correct": false
+      },
+      {
+        "matn": "Tеrmiz shаhri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "savol": "Vazirlar Mahkamasi tashkil etilganda unga rahbarlik qilish va uning ishini uyushtirish vazifasi qaysi organga berildi?",
+    "javob": [
+      {
+        "matn": "Prezidentga",
+        "correct": false
+      },
+      {
+        "matn": "Bosh vazirga",
+        "correct": false
+      },
+      {
+        "matn": "Vitse-prezidentga",
+        "correct": true
+      },
+      {
+        "matn": "Prezident va Vitse-prezidentga",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "savol": "Quyidagi qaysi shaxs O’zbekistonda Vitse-prezident lavozimida ishlagan?",
+    "javob": [
+      { "matn": "O‘. Sultonov", "correct": false },
+      { "matn": "A.Mutalov", "correct": false },
+      { "matn": "Sh. Mirsamadov", "correct": false },
+      { "matn": "Sh. Mirsaidov", "correct": true }
+    ]
+  },
+  {
+    "id": 593,
+    "savol": "O’zbekiston Respublikasining birinchi Bosh vaziri qaysi qatorda to’g’ri ko’rsatilgan?",
+    "javob": [
+      { "matn": "O‘. Sultonov", "correct": false },
+      { "matn": "A.Mutalov", "correct": true },
+      { "matn": "Sh. Mirsamadov", "correct": false },
+      { "matn": "Sh. Mirsaidov", "correct": false }
+    ]
+  },
+  {
+    "id": 594,
+    "savol": "O’zbekiston Bosh vazirlarining eng ko’p faoliyat ko’rsatgan muddatiga qarab ketma-ketlikda joylashtiring. 1) Abdulhoshim Mutalov; 2) Oʻtkir Sultonov; 3) Shavkat Mirziyoyev; 4) Abdulla Aripov.",
+    "javob": [
+      { "matn": "3, 1, 4, 2", "correct": false },
+      { "matn": "3, 2, 1, 4", "correct": true },
+      { "matn": "3, 1, 2, 4", "correct": false },
+      { "matn": "3, 4, 2, 1", "correct": false }
+    ]
+  },
+  {
+    "id": 595,
+    "savol": "Musavvirlikda “Hirot maktabi” deb nomlangan yangi uslubning asoschisini aniqlang.",
+    "javob": [
+      { "matn": "Mahmud Muzahhib", "correct": false },
+      { "matn": "Kamoliddin Behzod", "correct": true },
+      { "matn": "Alisher Navoiy", "correct": false },
+      { "matn": "Abdullo Xotifiy", "correct": false }
+    ]
+  },
+  {
+    "id": 596,
+    "savol": "Sovet hukumatining rahbari V.I.Leninning buyrug‘i bilan O‘rta Osiyoning favqulodda komissari qilib jo‘natilgan shaxsni aniqlang.",
+    "javob": [
+      { "matn": "F.Kobozev", "correct": true },
+      { "matn": "F.Kolesov", "correct": false },
+      { "matn": "Y.Perfilev", "correct": false },
+      { "matn": "P.Korovichenko", "correct": false }
+    ]
+  },
+  {
+    "id": 597,
+    "savol": "Urushdab keyingi yillarda O‘zbekiston sanoatini tiklash uchun Markaz qanday tamoyil asosida harakat qildi?",
+    "javob": [
+      { "matn": "O‘zbekistonning geografik holati va tabiiy inkoniyatlaridan kelib chiqib reja tuzildi", "correct": false },
+      { "matn": "O‘zbekistonga qo‘shni mamlakatlar va ko‘pmillatli aholi manfaatidan kelib chiqib reja qilindi", "correct": false },
+      { "matn": "Markaz manfaatidan kelib chiqqan holda reja tuzildi", "correct": true },
+      { "matn": "O‘zbekiston rahbarlari fikrlari inobatga olingan holda reja tuzildi", "correct": false }
+    ]
+  },
+  {
+    "id": 598,
+    "savol": "O‘zbekiston iqtisodiyotining bir tomonlama rivojlanishiga Markazning qanday siyosati sabab bo‘lgan edi?",
+    "javob": [
+      { "matn": "O‘zbekistonga xomashyo yetkazib beruvchi chekka hudud deb qaraganligi", "correct": true },
+      { "matn": "O‘zbekiston rahbarlari fikrlari inobatga olingan holda reja tuzildi", "correct": false },
+      { "matn": "Ko‘plab GES va GRESlarning qurilishi", "correct": false },
+      { "matn": "O‘zbekistonga ishchi kuchi ko‘p va arzon bo‘lgan mamlakat sifatida qaraganligi", "correct": false }
+    ]
+  },
+  {
+    "id": 599,
+    "savol": "Guliston shahrining dastlabki nomini toping.",
+    "javob": [
+      { "matn": "Zafarabod", "correct": false },
+      { "matn": "Oq oltin", "correct": false },
+      { "matn": "Mirzacho‘l", "correct": true },
+      { "matn": "Sovetobod", "correct": false }
+    ]
+  },
+  {
+    "id": 600,
+    "savol": "O‘zbekistonning qaysi rahbari mamlakat kadrlarini mahalliylashtirgani va islom diniga erkinlik berganligi uchun Markaz tomonidan vazifasida ozod qilingan edi?",
+    "javob": [
+      { "matn": "Inomjon Usmonxo‘jayev", "correct": false },
+      { "matn": "Sobir Kamolov", "correct": true },
+      { "matn": "Yodgor Nasriddinova", "correct": false },
+      { "matn": "Nazar Matchonov", "correct": false }
+    ]
+  },
+  {
+    "id": 601,
+    "savol": "Urushdan keyingi besh yillik (birinchi va ikkinchi) rejalarda iqtisodiyotni rivojlantirishdagi kapitallar asosan qaysi sohaga sarflandi?",
+    "javob": [
+      { "matn": "Yengil sanoatga", "correct": false },
+      { "matn": "Og‘ir sanoatga", "correct": true },
+      { "matn": "Qishloq xo‘jaligiga", "correct": false },
+      { "matn": "Ilm-fanga", "correct": false }
+    ]
+  },
+  {
+    "id": 602,
+    "savol": "Butun Sharqda parlament raisi bo‘lgan birinchi o’zbek ayol nomini toping.",
+    "javob": [
+      { "matn": "J.Obidova", "correct": false },
+      { "matn": "Z.Mahmudova", "correct": false },
+      { "matn": "Yo.Nasriddinova", "correct": true },
+      { "matn": "T.Shodiyeva", "correct": false }
+    ]
+  },
+  {
+    "id": 603,
+    "savol": "N.Xrushchev tomonidan O‘zbekiston hukumati raisligidan olinib, Mirzacho‘ldagi “4-Boyovut” sovxoziga direktor qilib jo‘natilgan shaxsni aniqlang.",
+    "javob": [
+      { "matn": "Sobir Kamolov", "correct": false },
+      { "matn": "Usmon Yusupov", "correct": true },
+      { "matn": "Nuriddin Muhiddinov", "correct": false },
+      { "matn": "Amin Niyozov", "correct": false }
+    ]
+  },
+  {
+    "id": 604,
+    "savol": "“Paxta ishi” bo‘yicha 1983-yil SSSR Bosh prokurori huzurida tuzilgan maxsus tergovchilarning qaysilar O‘zbekistonga yuborilgan edi?",
+    "javob": [
+      { "matn": "T.Gdlyan va N.Ivanov", "correct": true },
+      { "matn": "K.Chernenko va A.Gromiko", "correct": false },
+      { "matn": "Y.Andropov va N.Ivanov", "correct": false },
+      { "matn": "A.Nikitin va Y.Ligachyov", "correct": false }
+    ]
+  },
+  {
+    "id": 605,
+    "savol": "XX asr 80-yillarida “Sharof Rashidovchilik” iborasi o‘ylab topilgan bo‘lib, uning mazmuni nima edi?",
+    "javob": [
+      { "matn": "Sh.Rashidov bilan birga ishlagan kadrlarning barchasini qatag‘on qilish", "correct": false },
+      { "matn": "Sh.Rashidov ish faoliyatini ommalashtirish", "correct": false },
+      { "matn": "Sh.Rashidov o‘limidan keyin uni badnom qilish va shunhratini yerga urish", "correct": true },
+      { "matn": "Sh.Rashidovning boshqaruv ishlari, uslubi asosida “qayta qurish” siyosatini amalga oshirish", "correct": false }
+    ]
+  },
+  {
+    "id": 606,
+    "savol": "Birinchi Prezident Islom Karimov qachon O‘zbekiston Kompartiyasi Markaziy Komitetining birinchi sekretari qilib saylandi?",
+    "javob": [
+      { "matn": "1990-yil 24-mart", "correct": false },
+      { "matn": "1989-yil 12-iyun", "correct": false },
+      { "matn": "1990-yil 20-may", "correct": false },
+      { "matn": "1989-yil 23-iyun", "correct": true }
+    ]
+  },
+  {
+    "id": 607,
+    "savol": "1991-yil 19–21-avgust kunlari Moskvada ro‘y bergan davlat to‘ntarishi sharoitida O’zbekiston o’z hududiy yaxlitligi, aholi tinchligini himoya qilish yo‘lidagi ilk qadami qaysi qatorda to’g’ri ko’rsatilgan?",
+    "javob": [
+      { "matn": "Respublika Kompartiyasining KPSS MQ bilan har qanday aloqasini to‘xtatish to’g’risida Bayonot qabul qildi", "correct": false },
+      { "matn": "O‘zbekiston Ichki ishlar vazirligi, Davlat xavfsizligi komiteti O’zbekiston SSRning tasarrufiga olindi", "correct": true },
+      { "matn": "KPSSning barcha tashkilotlaridan chiqish va qisqa muddatda Respublikaning davlat mustaqilligi to‘g‘risidagi qonun loyihasini tayyorlashga topshiriq berildi", "correct": false },
+      { "matn": "O’zbekiston KPSSning Markaziy organlaridagi o‘z vakillarini chaqirib oldi", "correct": false }
+    ]
+  },
+  {
+    "id": 608,
+    "savol": "1991-yil 20-avgustda imzolanishi kerak bo‘lgan Yangi Ittifoq shartnomasi nima sababdan imzolanmay qoldi?",
+    "javob": [
+      { "matn": "Butun mamlakat bo‘ylab fuqarolar urushining avj olganligi sababli", "correct": false },
+      { "matn": "Moskvada 19 –21 avgust kunlari davlat to‘ntarilishining amalga oshirishi tufayli", "correct": true },
+      { "matn": "Ittifoqdosh respublikalarning barchasida referendum o‘tkazilishiga ulgurilmaganligi sababli", "correct": false },
+      { "matn": "“9+1” shartnomasining tuzilganligi va bu shartnoma shartlarida Yangi Ittifoq shartnomasi keltirilmaganligi sababli", "correct": false }
+    ]
+  },
+  {
+    "id": 609,
+    "savol": "Zahiriddin Muhammad Bobur Amir Temurning qaysi o‘g‘li avlodi hisoblanadi?",
+    "javob": [
+      { "matn": "Mirzo Jahongir", "correct": false },
+      { "matn": "Mironshoh Mirzo", "correct": true },
+      { "matn": "Umarshayx Mirzo", "correct": false },
+      { "matn": "Shohrux Mirzo", "correct": false }
+    ]
+  },
+  {
+    "id": 610,
+    "savol": "Muhammad Shayboniyxon nechanchi yilda tug‘ilgan?",
+    "javob": [
+      { "matn": "1461-yil", "correct": false },
+      { "matn": "1456-yil", "correct": false },
+      { "matn": "1449-yil", "correct": false },
+      { "matn": "1451-yil", "correct": true }
+    ]
+  },
+  {
+    "id": 611,
+    "savol": "Buxoro xonligida ashtarxoniylar davrida xondan keying o‘rinda bo’lib, shahzodalarga tarbiyachilik qilgan lavozim egasi kim?",
+    "javob": [
+      { "matn": "Devonbegi", "correct": false },
+      { "matn": "Qo‘shbegi", "correct": false },
+      { "matn": "Otaliq", "correct": true },
+      { "matn": "Naqib", "correct": false }
+    ]
+  },
+  {
+    "id": 612,
+    "savol": "Buxoro amirlaridan qaysi biri din ulamosi bo’lib, pichoqqa qin yasab sotib, shu orqali ro‘zg‘or tebratgan?",
+    "javob": [
+      { "matn": "Amir Haydar", "correct": false },
+      { "matn": "Doniyolbiy", "correct": false },
+      { "matn": "Shohmurod", "correct": true },
+      { "matn": "Nasrullo", "correct": false }
+    ]
+  },
+  {
+    "id": 613,
+    "savol": "Markaziy Osiyoda mil. avv. VII-VI asrlarda mavjud bo‘lgan Ko‘zaliqir shahri qaysi davlatning markazlaridan biri bo‘lgan?",
+    "javob": [
+      { "matn": "Qadimgi Sug’dning", "correct": false },
+      { "matn": "Qadimgi Xorazmning", "correct": true },
+      { "matn": "Qadimgi Parkananing", "correct": false },
+      { "matn": "Marg‘iyonaning", "correct": false }
+    ]
+  },
+  {
+    "id": 614,
+    "savol": "Quyidagilardan milodiy II asrda yashagan qadimgi yunon tarixchisini aniqlang.",
+    "javob": [
+      { "matn": "Arrian", "correct": true },
+      { "matn": "Ktesiy", "correct": false },
+      { "matn": "Strabon", "correct": false },
+      { "matn": "Kvint Kursiy Ruf", "correct": false }
+    ]
+  },
+  {
+    "id": 615,
+    "savol": "Xorazmda shaharsozlikning boshlanishi ....",
+    "javob": [
+      { "matn": "mil. avv. VII asrga borib taqaladi", "correct": true },
+      { "matn": "mil. avv. VIII asrga borib taqaladi", "correct": false },
+      { "matn": "Ahamoniylar davri bilan bog‘liqdir", "correct": false },
+      { "matn": "ellinizm davriga borib taqaladi", "correct": false }
+    ]
+  },
+  {
+    "id": 616,
+    "savol": "Sho‘rabashat ko‘hna shahri xarobalari qayerda joylashganligini aniqlang.",
+    "javob": [
+      { "matn": "So‘g‘diyonada", "correct": false },
+      { "matn": "Baqtriyada", "correct": false },
+      { "matn": "Xorazmda", "correct": false },
+      { "matn": "Farg‘onada", "correct": true }
+    ]
+  },
+  {
+    "id": 617,
+    "savol": "Dovon davlati barham topgan asrni aniqlang.",
+    "javob": [
+      { "matn": "milodiy I asrda", "correct": false },
+      { "matn": "milodiy II asrda", "correct": true },
+      { "matn": "mil.avv. II asrda", "correct": false },
+      { "matn": "milodiy III asrda", "correct": false }
+    ]
+  },
+  {
+    "id": 618,
+    "savol": "Quyidagi qaysi yodgorlik Buxoro viloyatida joylashgan?",
+    "javob": [
+      { "matn": "Jarqo’ton", "correct": false },
+      { "matn": "Namozgoh", "correct": false },
+      { "matn": "Zamonbobo", "correct": true },
+      { "matn": "Sopollitepa", "correct": false }
+    ]
+  },
+  {
+    "id": 619,
+    "savol": "Quyidagi yodgorliklardan qaysi birida aylana shaklda qurilgan mustahkam ibodatxona qoldiqlari topilgan?",
+    "javob": [
+      { "matn": "Qo‘yqirilganqal’a", "correct": true },
+      { "matn": "Tuproqqal’a", "correct": false },
+      { "matn": "Ko‘zaliqir", "correct": false },
+      { "matn": "Uzunqir", "correct": false }
+    ]
+  },
+  {
+    "id": 620,
+    "savol": "O‘rta Osiyodagi ilk ibodatxona qoldiqlari qaysi manzilgohdan topilgan?",
+    "javob": [
+      { "matn": "Sopollitepa", "correct": false },
+      { "matn": "Jarqo‘ton", "correct": true },
+      { "matn": "Zamonbobo", "correct": false },
+      { "matn": "Qiziltepa", "correct": false }
+    ]
+  },
+  {
+    "id": 621,
+    "savol": "Toshkent viloyatining Ohangaron daryosi vodiysidan topilgan qadimgi aholi manzilgohini aniqlang.",
+    "javob": [
+      { "matn": "Obishir", "correct": false },
+      { "matn": "Qo‘shilish", "correct": false },
+      { "matn": "Ko‘lbuloq", "correct": true },
+      { "matn": "Shoshtepa", "correct": false }
+    ]
+  },
+  {
+    "id": 622,
+    "savol": "Kushon davri me’morchiligida asosiy e’tibor nimaga qaratilgan edi?",
+    "javob": [
+      { "matn": "ko‘priklar va hukmdorlar qarorgohlari qurilishiga", "correct": false },
+      { "matn": "saroylar va ibodatxonalar qurilishiga", "correct": true },
+      { "matn": "qal’alar va qo‘rg‘onlar qurilishiga", "correct": false },
+      { "matn": "turar-joy binolari va hunarmandchilik mahallalari bunyod etishga", "correct": false }
+    ]
+  },
+  {
+    "id": 623,
+    "savol": "Qang‘ (Qang‘uy) davlati dastlab tashkil topgan paytida uning chegaralari hozirgi qaysi hududlarni egallagan?",
+    "javob": [
+      { "matn": "Toshkent vohasi va Xorazm hududlarini", "correct": false },
+      { "matn": "Toshkent vohasi, janubiy Qozog’iston va Sirdaryo bo‘yi hududlarini", "correct": true },
+      { "matn": "Toshkent vohasi, Dovon va So‘g‘d yerlarini", "correct": false },
+      { "matn": "Dovon, Chimkent va Xorazm yerlarini", "correct": false }
+    ]
+  },
+  {
+    "id": 624,
+    "savol": "O‘zbekiston hududidagi qadimgi shaharlar joylashgan o‘rni noto‘g‘ri berilgan javobni aniqlang.",
+    "javob": [
+      { "matn": "Uzunqir Qashqadaryo viloyatida", "correct": false },
+      { "matn": "Qiziltepa Surxondaryo viloyatida", "correct": false },
+      { "matn": "Ko‘zaliqir Xorazm viloyatida", "correct": false },
+      { "matn": "Yerqo‘rg‘on Farg‘ona viloyatida", "correct": true }
+    ]
+  },
+  {
+    "id": 625,
+    "savol": "Zardushtiylik ta’limotiga ko‘ra borliq va bizni qurshab olgan hamma narsa qanday ikki ibtidodan yaralgan?",
+    "javob": [
+      { "matn": "suv va havo", "correct": false },
+      { "matn": "ezgulik va yovuzlik", "correct": true },
+      { "matn": "olov va tuproq", "correct": false },
+      { "matn": "o‘lim va hayot", "correct": false }
+    ]
+  },
+  {
+    "id": 626,
+    "savol": "O‘rta Osiyodagi mil. av. V-IV asrlarga oid bo‘lgan manzilgohni aniqlang.",
+    "javob": [
+      { "matn": "Qo’yqirilganqal’a", "correct": false },
+      { "matn": "Oybo‘yirqal’a", "correct": true },
+      { "matn": "Zartepa", "correct": false },
+      { "matn": "Varaxsha", "correct": false }
+    ]
+  },
+  {
+    "id": 627,
+    "savol": "O‘rta Osiyo bo‘yicha eng qadimgi yozuvlar topilgan manzilgohlarni aniqlang.",
+    "javob": [
+      { "matn": "Oltintepa, Namozgoh", "correct": false },
+      { "matn": "Oybo‘yirqal’a, Qo‘yqirilganqal’a", "correct": true },
+      { "matn": "Sopollitepa, Dalvarzin", "correct": false },
+      { "matn": "Afrosiyob, Yerqo‘rg‘on", "correct": false }
+    ]
+  },
+  {
+    "id": 628,
+    "savol": "Quyidagi manzilgohlarning hududiy jihatdan joylashuvi to‘g‘ri ko‘rsatilgan javobni aniqlang. a) Zamonbobo b) Uzunqir c) Qiziltepa d) Ko‘zaliqir 1) Qashqadaryoda 2) Surxondaryoda 3) Xorazmda 4) Buxoroda",
+    "javob": [
+      { "matn": "1-a; 2-b; 3-c; 4-d", "correct": false },
+      { "matn": "1-b; 2-c; 3-a; 4-d", "correct": false },
+      { "matn": "1-b; 2-c; 3-d; 4-a", "correct": true },
+      { "matn": "1-c; 2-b; 3-a; 4-d", "correct": false }
+    ]
+  },
+  {
+    "id": 629,
+    "savol": "O‘zbekiston hududidagi qadimgi shaharlar nomi to‘g‘ri keltirilgan javob variantini aniqlang.",
+    "javob": [
+      { "matn": "Oltintepa, Uzunqir, Ko‘zaliqir", "correct": false },
+      { "matn": "Sarazm, Ko‘ktepa, Jarqo‘ton", "correct": false },
+      { "matn": "Qiziltepa, Yerqo‘rg‘on, Uzunqir", "correct": true },
+      { "matn": "Bolaliktepa, Oltintepa, Qiziltepa", "correct": false }
+    ]
+  },
+  {
+    "id": 630,
+    "savol": "O‘zbekiston tarixi bo‘yicha eng qadimgi yozma manbalar ketma-ketligi to‘g‘ri keltirilgan javobni aniqlang.",
+    "javob": [
+      { "matn": "“Avesto”, shumer yozuvlari, Gerodotning “Tarix” asari, Behustun yozuvlari", "correct": false },
+      { "matn": "“Avesto”, Behustun yozuvlari, Gerodotning “Tarix” asari, Yunon-rim manbalari", "correct": true },
+      { "matn": "Ramayana, “Avesto”, Yunon-rim manbalari, Persopol yozuvlari", "correct": false },
+      { "matn": "“Avesto”, Yunon-rim manbalari, Xitoy solnomalari", "correct": false }
+    ]
+  },
+  {
+    "id": 631,
+    "savol": "Amir Temurning 1395-yilda To‘xtamish ustidan qozongan g‘alabasi nimaga xizmat qilgan?",
+    "javob": [
+      { "matn": "Yetti yillik urushning g‘alaba bilan yakunlanishiga", "correct": false },
+      { "matn": "rus knyazliklarining birlashishiga", "correct": true },
+      { "matn": "Rossiya bilan diplomatik va savdo aloqalarining o‘rnatilishiga", "correct": false },
+      { "matn": "Amir Temurning Hindiston yurishiga tayyorgarlik ishlariga", "correct": false }
+    ]
+  },
+  {
+    "id": 632,
+    "savol": "X asr oxirida somoniylar davlatining zaiflashishiga nima sabab bo‘lgan?",
+    "javob": [
+      { "matn": "dindorlar hokimiyatining kuchayishi", "correct": false },
+      { "matn": "qurg‘oqchilik, hosilsizlik", "correct": false },
+      { "matn": "mahalliy hukmdor va yirik mulkdorlarning markaziy hokimiyatga qarshi kurashi", "correct": true },
+      { "matn": "aholining mahalliy hukmdorlarga qarshi qo‘zg‘oloni", "correct": false }
+    ]
+  },
+  {
+    "id": 633,
+    "savol": "VIII asrning birinchi choragida qaysi Xuroson noibiga so‘g‘dliklar qo‘zg‘olonini bostirish va ularni islomga qaytarish vazifasi yuklatilgan?",
+    "javob": [
+      { "matn": "Said Xoroshiyga", "correct": true },
+      { "matn": "Nasr ibn Sayyorga", "correct": false },
+      { "matn": "Umar ibn Abdulazizga", "correct": false },
+      { "matn": "Marvon II ga", "correct": false }
+    ]
+  },
+  {
+    "id": 634,
+    "savol": "Xuroson noibi bo‘lgan Nasr ibn Sayyor mamlakatda o‘z mavqeini mustahkamlash uchun ....",
+    "javob": [
+      { "matn": "islomga e’tiqod qiluvchilarni xirojdan ozod qildi.", "correct": false },
+      { "matn": "moliya islohoti o‘tkazdi", "correct": true },
+      { "matn": "musulmon olamidagi ilk harbiy islohotlarni amalga oshirdi.", "correct": false },
+      { "matn": "o‘ziga tayanch kuch sifatida Iroqdan yirik yer egalarini Movarounnahrga ko‘chirib keltirdi", "correct": false }
+    ]
+  },
+  {
+    "id": 635,
+    "savol": "575-576-yillarda turkiy xalqlar qaysi hududlardagi bepoyon yerlarni egallaganlar?",
+    "javob": [
+      { "matn": "Shimoliy Kavkazdagi", "correct": true },
+      { "matn": "Janubiy Kavkazdagi", "correct": false },
+      { "matn": "Tohariston va Chag‘oniyondagi", "correct": false },
+      { "matn": "Yoyiq va Itil daryosi oralig‘idagi", "correct": false }
+    ]
+  },
+  {
+    "id": 636,
+    "savol": "Eftaliylar davrida qaysi davlat hukumdorlari o‘z saroylarini O‘rta Osiyodan keltirilgan rangli shishalar bilan bezatganlar?",
+    "javob": [
+      { "matn": "Eron shahanshohlari", "correct": false },
+      { "matn": "Xitoy imperatorlari", "correct": true },
+      { "matn": "Vizantiya imperatorlari", "correct": false },
+      { "matn": "Hindiston rojalari", "correct": false }
+    ]
+  },
+  {
+    "id": 637,
+    "savol": "Turkiylar 563-yilda Eftaliylar davlati yerlariga bostirib kirganlarida kimlarning Balxga hujumi ko‘magidan foydalanganlar?",
+    "javob": [
+      { "matn": "Toxariston malikshohlarining", "correct": false },
+      { "matn": "Eron askarlarining", "correct": true },
+      { "matn": "Xitoy harbiylarining", "correct": false },
+      { "matn": "Afg‘oniston qo‘shinlarining", "correct": false }
+    ]
+  },
+  {
+    "id": 638,
+    "savol": "Quyidagi qaysi davlat qo‘shinlarida tumanboshi “shad” deb yuritilgan?",
+    "javob": [
+      { "matn": "Sosoniylar davlatida", "correct": false },
+      { "matn": "Turk xoqonligida", "correct": true },
+      { "matn": "Eftaliylar davlatida", "correct": false },
+      { "matn": "Tohiriylar davlatida", "correct": false }
+    ]
+  },
+  {
+    "id": 639,
+    "savol": "Turk xoqonligi davridagi “Qam-shomon” qanday din bo‘lgan?",
+    "javob": [
+      { "matn": "Ko‘k tangriga sig‘inuvchi yakkaxudolik dini", "correct": true },
+      { "matn": "dehqonchilik bilan shug‘ullanuvchi o‘troq aholining Yer va Quyoshni ulug‘lovchi dini", "correct": false },
+      { "matn": "Ko‘k tangriga sig‘inuvchi chorvador aholining ko‘p xudolilik dini", "correct": false },
+      { "matn": "Ona bo‘rini ulug‘lovchi va unga sig‘inuvchi yakkaxudolik dini", "correct": false }
+    ]
+  },
+  {
+    "id": 640,
+    "savol": "VIII asrning 40-yillarida Muhammad (s.a.v.) payg‘ambarning amakisi Abbosning nabirasi Muhammad ibn Ali toj-taxt uchun kurash boshlagan davrda ummaviylarga qanday ayb qo‘ygan?",
+    "javob": [
+      { "matn": "ummaviylar fitna uyushtirib xalifani qatl etganlikda ayblandilar", "correct": false },
+      { "matn": "ummaviylar Movarounnahr va Xurosonga xalifaning ruxsatisiz o‘z noiblarini tayinlagan edilar", "correct": false },
+      { "matn": "ummaviylar Muhammad (s.a.v.) avlodini qirib tashlashda ayblandilar", "correct": true },
+      { "matn": "ummaviylar shariat tartiblari va qonun-qoidalariga rioya etmaganlikda ayblandilar", "correct": false }
+    ]
+  },
+  {
+    "id": 641,
+    "savol": "Qaysi xalifa hukmronligi davrida ummaviylarga qarshi norozilik nihoyatda kuchaygan?",
+    "javob": [
+      { "matn": "Nasr ibn Sayyor davrida", "correct": false },
+      { "matn": "Marvon II davrida", "correct": true },
+      { "matn": "Marvon I davrida", "correct": false },
+      { "matn": "Muhammad ibn Ali davrida", "correct": false }
+    ]
+  },
+  {
+    "id": 642,
+    "savol": "Qadimda Oltoyning g‘arbida yashagan qarluqlar keyin qayerda yashaganlar?",
+    "javob": [
+      { "matn": "Sirdaryoning yuqori oqimlarida", "correct": false },
+      { "matn": "Irtish daryosining o‘rta oqimida", "correct": true },
+      { "matn": "Ural tog‘larida", "correct": false },
+      { "matn": "Ob daryosi havzalarida", "correct": false }
+    ]
+  },
+  {
+    "id": 643,
+    "savol": "Somoniylar davlatida qaysi devon bosh boshqaruv markazi hisoblangan?",
+    "javob": [
+      { "matn": "amid ul-muluk devoni", "correct": false },
+      { "matn": "vazir devoni", "correct": true },
+      { "matn": "sohibi shurat devoni", "correct": false },
+      { "matn": "mustovfiy devoni", "correct": false }
+    ]
+  },
+  {
+    "id": 644,
+    "savol": "Somoniylar davlatida yaxshi va uzoq xizmat qilgan sarbozlar qanday lavozimga ko‘tarilgan?",
+    "javob": [
+      { "matn": "Hojib", "correct": false },
+      { "matn": "Sipohdor", "correct": false },
+      { "matn": "hojibi buzruk", "correct": true },
+      { "matn": "Sipohsolor", "correct": false }
+    ]
+  },
+  {
+    "id": 645,
+    "savol": "Janubiy Sibir va Mo‘g‘ulistonga Movarounnahrdan turli Somoniylar davrida qaysi yo‘l orqali mahsulotlar olib borilgan?",
+    "javob": [
+      { "matn": "Sharqiy yo‘l orqali", "correct": false },
+      { "matn": "Shimoliy yo‘l orqali", "correct": true },
+      { "matn": "G‘arbiy yo‘l orqali", "correct": false },
+      { "matn": "Janubiy yo‘l orqali", "correct": false }
+    ]
+  },
+  {
+    "id": 646,
+    "savol": "Ma’lumki, Xo‘jand shahri hokimi Temur Malik mo‘g‘ullarga qarshi mardonavor kurash olib borgan edi. U Jo‘jixonga qarshi kurashib qaysi shaharni qaytarib olishga muvaffaq bo‘lgan?",
+    "javob": [
+      { "matn": "Banokat shahrini", "correct": false },
+      { "matn": "Jand shahrini", "correct": false },
+      { "matn": "Yangikent shahrini", "correct": true },
+      { "matn": "O‘tror shahrini", "correct": false }
+    ]
+  },
+  {
+    "id": 647,
+    "savol": "Jaloliddin Manguberdi mo‘g‘ullarga qarshi kurashib, G‘aznaga yetib olgunga qadar ....",
+    "javob": [
+      { "matn": "Amudaryo bo‘ylarida Jo‘jixon qo‘shinlarini tor-mor etdi", "correct": false },
+      { "matn": "Niso, Qandahor shaharlari yonida mo‘g‘ul qo‘shinlariga qaqshatqich zarbalar berdi", "correct": true },
+      { "matn": "Marvni o‘z qarorgohiga aylantirib, bu yerda katta qo‘shin to‘play boshladi", "correct": false },
+      { "matn": "Chingizxon bilan yakkama-yakka muzokoralar olib bordi", "correct": false }
+    ]
+  },
+  {
+    "id": 648,
+    "savol": "Turk xoqonligida kimlar “Yabg‘u” unvoniga ega bo‘lish huquqini qo‘lga kirita olgan?",
+    "javob": [
+      { "matn": "yirik sarkardalar", "correct": false },
+      { "matn": "xoqonning qarindoshlari", "correct": true },
+      { "matn": "katta yer egalari", "correct": false },
+      { "matn": "urug‘ sardorlari", "correct": false }
+    ]
+  },
+  {
+    "id": 649,
+    "savol": "Amir Temur davrida askariy qismlarni viloyatlardan to‘plash bilan shug‘ullangan amaldorni aniqlang.",
+    "javob": [
+      { "matn": "Yasovulboshi", "correct": false },
+      { "matn": "to‘qsabo", "correct": false },
+      { "matn": "dorug‘a", "correct": false },
+      { "matn": "Tavochi", "correct": true }
+    ]
+  },
+  {
+    "id": 650,
+    "savol": "Buxorxudotning qiziga uylangan Xuroson noibini aniqlang.",
+    "javob": [
+      { "matn": "Umar ibn Abdulaziz", "correct": false },
+      { "matn": "Said Xaroshiy", "correct": false },
+      { "matn": "Nasr ibn Sayyor", "correct": true },
+      { "matn": "Muhammad ibn Ali", "correct": false }
+    ]
+  },
+  {
+    "id": 651,
+    "savol": "Metodologiya haqida to‘xtalsak, uning lug‘aviy ma’nosi yunoncha “metodos” va “logos” degan ikki so‘z birikmasidan iborat bo‘lib, metod, ya’ni,…..",
+    "javob": [
+      { "matn": "usul", "correct": false },
+      { "matn": "nazariya", "correct": false },
+      { "matn": "ta`limot", "correct": false },
+      { "matn": "hamma javob to`gri", "correct": true }
+    ]
+  },
+  {
+    "id": 652,
+    "savol": "Uslubiyat ilmiy tadqiqot olib borish yoki biror bir masalani ilmiy o‘rganishning eng qulay usullari, eng to‘g‘ri va mukammal g‘oyasi, nazariyasi va ta’limotlari majmuidan iborat bir butun fan",
+    "javob": [
+      { "matn": "terminologiya", "correct": false },
+      { "matn": "metodologiya", "correct": true },
+      { "matn": "xronologiya", "correct": false },
+      { "matn": "to`g`ri javob yoq", "correct": false }
+    ]
+  },
+  {
+    "id": 653,
+    "savol": "Quyidagilardan qaysi biri O‘zbekiston tarixi fanining uslubiy, ilmiy-nazariy, g‘oyaviy va falsafiy asoslari hisoblanadi?",
+    "javob": [
+      { "matn": "tarixga hozirgi zamon sivilizatsiyasi nuqtai nazari va bag‘rikenglik asosida yondashish", "correct": false },
+      { "matn": "tarix, jamiyat va tabiat hamda insoniyat dialektika hamda sinergetika qonuniyatlari asoslarida rivojlanishi haqiqat ekanligi", "correct": false },
+      { "matn": "hamma javob to`g’ri", "correct": true },
+      { "matn": "din bilan dunyoviylik o‘rtasida mo‘tadil munosabat bo‘lishi va dunyoviylik aslo dahriylik emasligi; tarix milliy va umuminsoniy xotira", "correct": false }
+    ]
+  },
+  {
+    "id": 654,
+    "savol": "Gerodot qaysi shaharda tug`ilgan?",
+    "javob": [
+      { "matn": "Afina", "correct": false },
+      { "matn": "Galikarnass", "correct": true },
+      { "matn": "Sparta", "correct": false },
+      { "matn": "Geliopol", "correct": false }
+    ]
+  },
+  {
+    "id": 655,
+    "savol": "Gerodot qachon tug`ilgan",
+    "javob": [
+      { "matn": "m/a 454", "correct": false },
+      { "matn": "454", "correct": false },
+      { "matn": "484", "correct": false },
+      { "matn": "m/a 484", "correct": true }
+    ]
+  },
+  {
+    "id": 656,
+    "savol": "Gerodot necha yil davomida Old Osiyo, Misr, Ossuriya, Bobil va Qora dengizning shimoliy sohillariga sayohat qilib ko‘pdan–ko‘p tarixiy ma’lumotlar to‘plagan?",
+    "javob": [
+      { "matn": "15", "correct": false },
+      { "matn": "20", "correct": false },
+      { "matn": "10", "correct": true },
+      { "matn": "25", "correct": false }
+    ]
+  },
+  {
+    "id": 657,
+    "savol": "Kim jahon tarixini “yovvoyilik”, “varvarlik” va “sivilizatsiya” bosqichlariga ajratdi?",
+    "javob": [
+      { "matn": "Morgan", "correct": false },
+      { "matn": "Fergyusson", "correct": true },
+      { "matn": "M.O.Kosven", "correct": false },
+      { "matn": "Rtvladze", "correct": false }
+    ]
+  },
+  {
+    "id": 658,
+    "savol": "Kim insoniyat tarixidagi “yovvoyilik, varvarlik va sivilizatsiya” davrlarini alohida bosqichlarga bo‘ladi?",
+    "javob": [
+      { "matn": "Fergyusson", "correct": false },
+      { "matn": "M.O.Kosven", "correct": false },
+      { "matn": "Morgan", "correct": true },
+      { "matn": "Rtvladze", "correct": false }
+    ]
+  },
+  {
+    "id": 659,
+    "savol": "Qaysi asrda insoniyat tarixini har tomonlama rivojlangan ijtimoiy va madaniy komplekslar (majmualar) – sivilizatsiyalar belgilab berishi to‘g‘risida konsepsiya shakllangan?",
+    "javob": [
+      { "matn": "XVII-XIX", "correct": false },
+      { "matn": "XX", "correct": false },
+      { "matn": "XVII", "correct": false },
+      { "matn": "XIX", "correct": true }
+    ]
+  },
+  {
+    "id": 660,
+    "savol": "“Zaotara” kim?",
+    "javob": [
+      { "matn": "jangchi", "correct": false },
+      { "matn": "hunarmand", "correct": false },
+      { "matn": "kohin", "correct": true },
+      { "matn": "savdogar", "correct": false }
+    ]
+  },
+  {
+    "id": 661,
+    "savol": "Avestoda azata kim?",
+    "javob": [
+      { "matn": "kohin", "correct": false },
+      { "matn": "zodagon", "correct": true },
+      { "matn": "hunarmand", "correct": false },
+      { "matn": "savdogar", "correct": false }
+    ]
+  },
+  {
+    "id": 662,
+    "savol": "Avestoga ko`ra ratayshtar kim?",
+    "javob": [
+      { "matn": "hunarmad", "correct": false },
+      { "matn": "kohin", "correct": false },
+      { "matn": "savdogar", "correct": false },
+      { "matn": "jangchi", "correct": true }
+    ]
+  },
+  {
+    "id": 663,
+    "savol": "Avestoga ko`ra vispati kim?",
+    "javob": [
+      { "matn": "urug` jamoasi boshlig`i", "correct": true },
+      { "matn": "hunarmand", "correct": false },
+      { "matn": "savdogar", "correct": false },
+      { "matn": "jangchi", "correct": false }
+    ]
+  },
+  {
+    "id": 664,
+    "savol": "Avestoga ko`ra gaytana nima?",
+    "javob": [
+      { "matn": "toj", "correct": false },
+      { "matn": "mulk", "correct": false },
+      { "matn": "uy-qo`rg`on", "correct": true },
+      { "matn": "hukmdor", "correct": false }
+    ]
+  },
+  {
+    "id": 665,
+    "savol": "Qadimgi dunyo tarixi nechinchi yilgacha bo`lgan davrni o`z ichiga oladi?",
+    "javob": [
+      { "matn": "375", "correct": false },
+      { "matn": "476", "correct": true },
+      { "matn": "313", "correct": false },
+      { "matn": "571", "correct": false }
+    ]
+  },
+  {
+    "id": 666,
+    "savol": "Yozma manbalar necha turga bo`linadi?",
+    "javob": [
+      { "matn": "3", "correct": false },
+      { "matn": "2", "correct": true },
+      { "matn": "4", "correct": false },
+      { "matn": "5", "correct": false }
+    ]
+  },
+  {
+    "id": 667,
+    "savol": "Etnografiya so‘zi ……. tilidan olingan bo‘lib, etnos – xalq, grapho – yozaman, xalq haqidagi ma’lumotlar, xalqshunoslik degan ma’noni bildiradi.",
+    "javob": [
+      { "matn": "fransuz", "correct": false },
+      { "matn": "ingliz", "correct": false },
+      { "matn": "lotin", "correct": false },
+      { "matn": "yunon", "correct": true }
+    ]
+  },
+  {
+    "id": 668,
+    "savol": "Etnografiya so`zining ma`nosi nima?",
+    "javob": [
+      { "matn": "xalqshunoslik", "correct": true },
+      { "matn": "tilshunoslik", "correct": false },
+      { "matn": "qadimshunoslik", "correct": false },
+      { "matn": "madaniyatshunoslik", "correct": false }
+    ]
+  },
+  {
+    "id": 669,
+    "savol": "Antropologiya fanida ilk qazilma va zamonaviy qiyofadagi odamlar oilasi nima deb ataladi?",
+    "javob": [
+      { "matn": "zaotara", "correct": false },
+      { "matn": "gominiylar", "correct": false },
+      { "matn": "homonidae", "correct": false },
+      { "matn": "c va d", "correct": true }
+    ]
+  },
+  {
+    "id": 670,
+    "savol": "“Homo erectus” so`zining manosi nima?",
+    "javob": [
+      { "matn": "ishbilarmon odam", "correct": false },
+      { "matn": "tik yuruvchi odam", "correct": true },
+      { "matn": "maymun odami", "correct": false },
+      { "matn": "t.j.y", "correct": false }
+    ]
+  },
+  {
+    "id": 671,
+    "savol": "“Pitekantrop” qanday ma`noni anglatadi?",
+    "javob": [
+      { "matn": "ishbilarmon odam", "correct": false },
+      { "matn": "maymun odami", "correct": true },
+      { "matn": "tik yuruvchi odam", "correct": false },
+      { "matn": "t.j.y", "correct": false }
+    ]
+  },
+  {
+    "id": 672,
+    "savol": "Seleng‘ur qurollarining yoshi ….. yildan ziyodroq deb taxmin qilinadi.",
+    "javob": [
+      { "matn": "10 ming", "correct": false },
+      { "matn": "50 ming", "correct": false },
+      { "matn": "80 ming", "correct": false },
+      { "matn": "1mln", "correct": true }
+    ]
+  },
+  {
+    "id": 673,
+    "savol": "Toshsoy makoni qayerda joylashgan?",
+    "javob": [
+      { "matn": "Piskom", "correct": false },
+      { "matn": "Gazalkent", "correct": false },
+      { "matn": "Angren", "correct": false },
+      { "matn": "Ohangaron", "correct": true }
+    ]
+  },
+  {
+    "id": 674,
+    "savol": "muste madaniyati qaysi davr uchun xos?",
+    "javob": [
+      { "matn": "o`rta paleolit", "correct": true },
+      { "matn": "ilk paleolit", "correct": false },
+      { "matn": "mezeolit", "correct": false },
+      { "matn": "bronza", "correct": false }
+    ]
+  },
+  {
+    "id": 675,
+    "savol": "Teshiktosh (Surxondaryo) g‘or qachon ochilgan edi.",
+    "javob": [
+      { "matn": "1958", "correct": false },
+      { "matn": "1928", "correct": false },
+      { "matn": "1948", "correct": false },
+      { "matn": "1938", "correct": true }
+    ]
+  },
+  {
+    "id": 676,
+    "savol": "Teshiktosh (Surxondaryo) g‘or kim tomonidan ochilgan edi.",
+    "javob": [
+      { "matn": "Rtvladze", "correct": false },
+      { "matn": "Okladnikov", "correct": true },
+      { "matn": "Masson", "correct": false },
+      { "matn": "Morgan", "correct": false }
+    ]
+  },
+  {
+    "id": 677,
+    "savol": "Xo`jakent makoni qayrda joylashgan?",
+    "javob": [
+      { "matn": "Xorazm", "correct": false },
+      { "matn": "Surxondaryo", "correct": false },
+      { "matn": "Toshkent vil.", "correct": true },
+      { "matn": "Samarqand", "correct": false }
+    ]
+  },
+  {
+    "id": 678,
+    "savol": "Boysun tog‘idagi g‘or-makonning beshta madaniy qatlamidan ……yaqin tosh qurollar topilgan.",
+    "javob": [
+      { "matn": "2000", "correct": false },
+      { "matn": "3500", "correct": false },
+      { "matn": "2500", "correct": false },
+      { "matn": "3000", "correct": true }
+    ]
+  },
+  {
+    "id": 679,
+    "savol": "Chotqol tizmasidagi Paltov soyining yuqori oqimida joylashgan makon qaysi?",
+    "javob": [
+      { "matn": "obirahmat", "correct": true },
+      { "matn": "qo`shilish", "correct": false },
+      { "matn": "machay", "correct": false },
+      { "matn": "zarautsoy", "correct": false }
+    ]
+  },
+  {
+    "id": 680,
+    "savol": "Paleografiya so`zining ma`nosi nima?",
+    "javob": [
+      { "matn": "tosh, metall buyumlar, yog‘och va boshqa qattiq buyumlar ustiga o‘yib yozilgan qadimgi bitiklarni o‘rganadi.", "correct": false },
+      { "matn": "qadimiy qo‘lyozma asarlarning qog‘ozi, muqovasi, siyohi, yozuvi va yozish usullarini tekshiradi", "correct": true },
+      { "matn": "qadimiy pullarni, ashyosi, shakli, vazni, yozuvlari, zarb etilgan joyi va vaqtini tekshiradi.", "correct": false },
+      { "matn": "qadimiy gerblar, turli–tuman nishon va belgilarni o‘rganadi.", "correct": false }
+    ]
+  },
+  {
+    "id": 681,
+    "savol": "Epigrafika so`zining ma`nosi nima?",
+    "javob": [
+      { "matn": "qadimiy qo‘lyozma asarlarning qog‘ozi, muqovasi, siyohi, yozuvi va yozish usullarini tekshiradi", "correct": false },
+      { "matn": "qadimiy pullarni, ashyosi, shakli, vazni, yozuvlari, zarb etilgan joyi va vaqtini tekshiradi.", "correct": false },
+      { "matn": "tosh, metall buyumlar, yog‘och va boshqa qattiq buyumlar ustiga o‘yib yozilgan qadimgi bitiklarni o‘rganadi.", "correct": true },
+      { "matn": "qadimiy gerblar, turli–tuman nishon va belgilarni o‘rganadi.", "correct": false }
+    ]
+  },
+  {
+    "id": 682,
+    "savol": "Numizmatika so`zining ma`nosi nima?",
+    "javob": [
+      { "matn": "qadimiy qo‘lyozma asarlarning qog‘ozi, muqovasi, siyohi, yozuvi va yozish usullarini tekshiradi", "correct": false },
+      { "matn": "qadimiy pullarni, ashyosi, shakli, vazni, yozuvlari, zarb etilgan joyi va vaqtini tekshiradi.", "correct": true },
+      { "matn": "tosh, metall buyumlar, yog‘och va boshqa qattiq buyumlar ustiga o‘yib yozilgan qadimgi bitiklarni o‘rganadi.", "correct": false },
+      { "matn": "qadimiy gerblar, turli–tuman nishon va belgilarni o‘rganadi.", "correct": false }
+    ]
+  },
+  {
+    "id": 683,
+    "savol": "Geraldika so`zining ma`nosi nima?",
+    "javob": [
+      { "matn": "qadimiy qo‘lyozma asarlarning qog‘ozi, muqovasi, siyohi, yozuvi va yozish usullarini tekshiradi", "correct": false },
+      { "matn": "tosh, metall buyumlar, yog‘och va boshqa qattiq buyumlar ustiga o‘yib yozilgan qadimgi bitiklarni o‘rganadi.", "correct": false },
+      { "matn": "qadimiy pullarni, ashyosi, shakli, vazni, yozuvlari, zarb etilgan joyi va vaqtini tekshiradi.", "correct": false },
+      { "matn": "qadimiy gerblar, turli–tuman nishon va belgilarni o‘rganadi.", "correct": true }
+    ]
+  },
+  {
+    "id": 684,
+    "savol": "Sfragistika nima bilan shug`ullanadi?",
+    "javob": [
+      { "matn": "qadimiy muhrlar va ularning yozuvlari hamda tasvirlarini o‘rganadi.", "correct": true },
+      { "matn": "rasmiy hujjatlarni o‘rganadi va tahlil qiladi.", "correct": false },
+      { "matn": "qadimgi xalqlar orasidagi va mamlakatlarda amalda bo‘lgan yil hisobi va taqvimini o‘rganuvchi fan.", "correct": false },
+      { "matn": "o‘tmishda turli mamlakatlar va xalqlar orasida amalda bo‘lgan masofa, og‘irlik va sath o‘lchov birliklarini o‘rganadi", "correct": false }
+    ]
+  },
+  {
+    "id": 685,
+    "savol": "Diplomatika nima bilan shug`ullanadi?",
+    "javob": [
+      { "matn": "qadimiy muhrlar va ularning yozuvlari hamda tasvirlarini o‘rganadi.", "correct": false },
+      { "matn": "qadimgi xalqlar orasidagi va mamlakatlarda amalda bo‘lgan yil hisobi va taqvimini o‘rganuvchi fan.", "correct": false },
+      { "matn": "rasmiy hujjatlarni o‘rganadi va tahlil qiladi.", "correct": true },
+      { "matn": "o‘tmishda turli mamlakatlar va xalqlar orasida amalda bo‘lgan masofa, og‘irlik va sath o‘lchov birliklarini o‘rganadi", "correct": false }
+    ]
+  },
+  {
+    "id": 686,
+    "savol": "Xronologiya nima bilan shug`ullanadi?",
+    "javob": [
+      { "matn": "qadimiy muhrlar va ularning yozuvlari hamda tasvirlarini o‘rganadi.", "correct": false },
+      { "matn": "qadimgi xalqlar orasidagi va mamlakatlarda amalda bo‘lgan yil hisobi va taqvimini o‘rganuvchi fan.", "correct": true },
+      { "matn": "rasmiy hujjatlarni o‘rganadi va tahlil qiladi.", "correct": false },
+      { "matn": "o‘tmishda turli mamlakatlar va xalqlar orasida amalda bo‘lgan masofa, og‘irlik va sath o‘lchov birliklarini o‘rganadi", "correct": false }
+    ]
+  },
+  {
+    "id": 687,
+    "savol": "Metrologiya nima bilan shug`ullanadi?",
+    "javob": [
+      { "matn": "qadimiy muhrlar va ularning yozuvlari hamda tasvirlarini o‘rganadi.", "correct": false },
+      { "matn": "rasmiy hujjatlarni o‘rganadi va tahlil qiladi.", "correct": false },
+      { "matn": "qadimgi xalqlar orasidagi va mamlakatlarda amalda bo‘lgan yil hisobi va taqvimini o‘rganuvchi fan.", "correct": false },
+      { "matn": "o‘tmishda turli mamlakatlar va xalqlar orasida amalda bo‘lgan masofa, og‘irlik va sath o‘lchov birliklarini o‘rganadi", "correct": true }
+    ]
+  },
+  {
+    "id": 688,
+    "savol": "Yurtimizda aniqlangan eng qadimiy tasviriy san’at obidasi qaysi?",
+    "javob": [
+      { "matn": "zarautsoy", "correct": false },
+      { "matn": "lasko", "correct": false },
+      { "matn": "siypantosh", "correct": true },
+      { "matn": "altamir", "correct": false }
+    ]
+  },
+  {
+    "id": 689,
+    "savol": "O‘rta Osiyo ………. hududlarida mil. avv. III mingyillikning o‘rtalari – II mingyillik boshlarida ixtisoslashgan hunarmandchilik sohalari rivoj topadi.",
+    "javob": [
+      { "matn": "saqrqiy", "correct": false },
+      { "matn": "shimoliy", "correct": false },
+      { "matn": "g`arbiy", "correct": false },
+      { "matn": "janubiy", "correct": true }
+    ]
+  },
+  {
+    "id": 690,
+    "savol": "Nechanchi mingyillikda charx kulolchilik hunariga keng joriy etiladi?",
+    "javob": [
+      { "matn": "m/a III", "correct": false },
+      { "matn": "m/a II", "correct": true },
+      { "matn": "m/a III-II", "correct": false },
+      { "matn": "I", "correct": false }
+    ]
+  },
+  {
+    "id": 691,
+    "savol": "Quyidagi qaysi yodgorlik toshdan qurilgan mudofaa devorlariga ega?",
+    "javob": [
+      { "matn": "Tuproqqal`a", "correct": false },
+      { "matn": "Jarqo`ton", "correct": false },
+      { "matn": "G`ozqal`a", "correct": false },
+      { "matn": "burguttepa", "correct": true }
+    ]
+  },
+  {
+    "id": 692,
+    "savol": "Topilgan bronza muhr-tamg‘alar burgut, ilon, tuya va boshqa tasvirlar bilan naqshlangan. Ular ayrim katta patriarxal oilalar va urug‘larning ramzlari bo‘lgan. Ta`rif qaysi manzilgohlarga tegishli?",
+    "javob": [
+      { "matn": "Tuproqqal`a", "correct": false },
+      { "matn": "Jarqo`ton va Sopollitepa", "correct": true },
+      { "matn": "G`ozqal`a", "correct": false },
+      { "matn": "burguttepa", "correct": false }
+    ]
+  },
+  {
+    "id": 693,
+    "savol": "Qachon Qadimgi Sharqda (Old Osiyo, Misr, Ikkidaryo oralig‘i) ilk davlatlar shakllandi?",
+    "javob": [
+      { "matn": "Mil. avv. III mingyillikning oxirlariga kelib", "correct": false },
+      { "matn": "Mil. avv. II mingyillikning oxirlariga kelib", "correct": false },
+      { "matn": "Mil. avv. I mingyillikning oxirlariga kelib", "correct": false },
+      { "matn": "Mil. avv. IV mingyillikning oxirlariga kelib", "correct": true }
+    ]
+  },
+  {
+    "id": 694,
+    "savol": "Marg‘iyona – Baqtriya sivilizatsiyasi fanda nima deb e’tirof etilgan?",
+    "javob": [
+      { "matn": "zarafshon sivilizatsiyasi", "correct": false },
+      { "matn": "sayhun sivilizatsiyasi", "correct": false },
+      { "matn": "hamma javob to`g`ri", "correct": false },
+      { "matn": "Oks - Amudaryo sivilizatsiyasi", "correct": true }
+    ]
+  },
+  {
+    "id": 695,
+    "savol": "Qachon O‘rta Osiyo dasht va tog‘ oldilariga chorvador qabilalar keng miqyosda kelib o‘rnasha boshladi?",
+    "javob": [
+      { "matn": "Mil. avv. III mingyillikning ikkinchi yarmida", "correct": false },
+      { "matn": "Mil. avv. II mingyillikning ikkinchi yarmida", "correct": true },
+      { "matn": "Mil. avv. I mingyillikning ikkinchi yarmida", "correct": false },
+      { "matn": "Mil. avv. III-II mingyillikning ikkinchi yarmida", "correct": false }
+    ]
+  },
+  {
+    "id": 696,
+    "savol": "Avestoga ko`ra kavi qanday unvon?",
+    "javob": [
+      { "matn": "harbiy yo‘lboshchi", "correct": false },
+      { "matn": "hukmdor, podsho", "correct": true },
+      { "matn": "qabila yo‘lboshchisi", "correct": false },
+      { "matn": "barcha viloyatlar hududiy birlashuvi", "correct": false }
+    ]
+  },
+  {
+    "id": 697,
+    "savol": "Avestoga ko`ra sastar qanday unvon?",
+    "javob": [
+      { "matn": "hukmdor, podsho", "correct": false },
+      { "matn": "harbiy yo‘lboshchi", "correct": true },
+      { "matn": "qabila yo‘lboshchisi", "correct": false },
+      { "matn": "barcha viloyatlar hududiy birlashuvi", "correct": false }
+    ]
+  },
+  {
+    "id": 698,
+    "savol": "Avestoga ko`ra zantupat qanday unvon?",
+    "javob": [
+      { "matn": "hukmdor, podsho", "correct": false },
+      { "matn": "harbiy yo‘lboshchi", "correct": false },
+      { "matn": "qabila yo‘lboshchisi", "correct": true },
+      { "matn": "barcha viloyatlar hududiy birlashuvi", "correct": false }
+    ]
+  },
+  {
+    "id": 699,
+    "savol": "Daxiyusasti nima?",
+    "javob": [
+      { "matn": "hukmdor, podsho", "correct": false },
+      { "matn": "harbiy yo‘lboshchi", "correct": false },
+      { "matn": "qabila yo‘lboshchisi", "correct": false },
+      { "matn": "barcha viloyatlar hududiy birlashuvi", "correct": true }
+    ]
+  },
+  {
+    "id": 700,
+    "savol": "Davlat paydo bo`lishining teologik nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "davlatlar kelib chiqishini ilohiylik bilan bog‘laydi. Qadimgi davrdayoq Isroilda paydo bo‘lgan bu nazariya ilk davlatlarning diniy boshqaruv shakllarini (teokratik) qattiq turib himoya qiladi.", "correct": true },
+      { "matn": "Uning tarafdorlari dastlabki davlat bevosita oiladan o‘sib chiqqan deb hisoblaydi. Unga ko‘ra, davlat hokimiyati otaning oila a’zolari ustidan hokimligini belgilab beradi.", "correct": false },
+      { "matn": "Nazariya tarafdorlari davlat yerga mulkchilik huquqidan kelib chiqqan (patrimomum) deb hisoblashadi.", "correct": false },
+      { "matn": "davlat - odamlar o‘rtasida tuzilgan shartnoma asosida odamlarning ongli ravishda birlashishidir.", "correct": false }
+    ]
+  },
+  {
+    "id": 701,
+    "savol": "Davlat paydo bo`lishining Patriarxal nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "davlatlar kelib chiqishini ilohiylik bilan bog‘laydi.", "correct": false },
+      { "matn": "Uning tarafdorlari dastlabki davlat bevosita oiladan o‘sib chiqqan deb hisoblaydi. Unga ko‘ra, davlat hokimiyati otaning oila a’zolari ustidan hokimligini belgilab beradi.", "correct": true },
+      { "matn": "Nazariya tarafdorlari davlat yerga mulkchilik huquqidan kelib chiqqan deb hisoblashadi.", "correct": false },
+      { "matn": "davlat - odamlar o‘rtasida tuzilgan shartnoma asosida birlashishidir.", "correct": false }
+    ]
+  },
+  {
+    "id": 702,
+    "savol": "Davlat paydo bo`lishining Patremonial nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "davlatlar kelib chiqishini ilohiylik bilan bog‘laydi.", "correct": false },
+      { "matn": "Uning tarafdorlari dastlabki davlat bevosita oiladan o‘sib chiqqan deb hisoblaydi.", "correct": false },
+      { "matn": "Nazariya tarafdorlari davlat yerga mulkchilik huquqidan kelib chiqqan (patrimomum) deb hisoblashadi. ya’ni, hokimiyat, yerga egalik qilish huquqidan bevosita u yerda yashovchi odamlarga yoyiladi", "correct": true },
+      { "matn": "davlat - odamlar o‘rtasida tuzilgan shartnoma asosida odamlarning ongli ravishda birlashishidir.", "correct": false }
+    ]
+  },
+  {
+    "id": 703,
+    "savol": "Davlat paydo bo`lishining Shartnomaviy nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "davlatlar kelib chiqishini ilohiylik bilan bog‘laydi.", "correct": false },
+      { "matn": "Uning tarafdorlari dastlabki davlat bevosita oiladan o‘sib chiqqan deb hisoblaydi.", "correct": false },
+      { "matn": "Nazariya tarafdorlari davlat yerga mulkchilik huquqidan kelib chiqqan deb hisoblashadi.", "correct": false },
+      { "matn": "davlat - odamlar o‘rtasida tuzilgan shartnoma asosida odamlarning ongli ravishda birlashishidir. Odamlar shartnomaning kuchi bilan o‘z erkinligi, o‘z hokimiyatining bir qismini davlatga beradilar.", "correct": true }
+    ]
+  },
+  {
+    "id": 704,
+    "savol": "Davlat paydo bo`lishining Zo‘ravonlik nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "Uning tarafdorlari: E.Dyuring, L.Gumplovich, K.Kautskiy huquqsiz va himoyasiz qabilalarning kuchli va uyushgan qabilalar tomonidan bosib olinishi tufayli zo‘ravonlik yoki kuch ishlatish yo‘li bilan paydo bo‘lgan deb hisoblaydilar.", "correct": true },
+      { "matn": "davlatlarning paydo bo‘lishi, ularning birlamchi despotik shakllari sharqiy agrar viloyatlarda ulkan inshootlar qurilishi bilan bog‘lanadi.", "correct": false },
+      { "matn": "davlatning paydo bo‘lishini inson psixologiyasi, shaxsning jamoada yashashga ehtiyoji bilan izohlaydilar", "correct": false },
+      { "matn": "Bu nazariyaga ko‘ra, sinflar paydo bo‘lishi va ular o‘rtasida sinfiy kurash keskinlashuvining yakunidir.", "correct": false }
+    ]
+  },
+  {
+    "id": 705,
+    "savol": "Davlat paydo bo`lishining Irrigatsiya nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "Uning tarafdorlari huquqsiz qabilalarning bosib olinishi tufayli paydo bo‘lgan deb hisoblaydilar.", "correct": false },
+      { "matn": "davlatlarning paydo bo‘lishi, ularning birlamchi despotik shakllari sharqiy agrar viloyatlarda ulkan inshootlar qurilishi bilan bog‘lanadi.", "correct": true },
+      { "matn": "davlatning paydo bo‘lishini inson psixologiyasi bilan izohlaydilar", "correct": false },
+      { "matn": "Davlat bir sinfning boshqa sinf ustidan hukmronlik qurolidir.", "correct": false }
+    ]
+  },
+  {
+    "id": 706,
+    "savol": "Davlat paydo bo`lishining Psixologiya nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "Uning tarafdorlari huquqsiz qabilalarning bosib olinishi tufayli paydo bo‘lgan deb hisoblaydilar.", "correct": false },
+      { "matn": "davlatlarning paydo bo‘lishi ulkan inshootlar qurilishi bilan bog‘lanadi.", "correct": false },
+      { "matn": "L.Petrajetskiy, Z.Freyd, G.Tard davlatning paydo bo‘lishini inson psixologiyasi, shaxsning jamoada yashashga ehtiyoji, obro‘li kishilarni izlash, buyruq berish va itoat istagi bilan izohlaydilar", "correct": true },
+      { "matn": "Davlat bir sinfning boshqa sinf ustidan hukmronlik qurolidir.", "correct": false }
+    ]
+  },
+  {
+    "id": 707,
+    "savol": "Davlat paydo bo`lishining sinfiy nazariyasiga ko`ra……",
+    "javob": [
+      { "matn": "Uning tarafdorlari: E.Dyuring, L.Gumplovich, K.Kautskiy huquqsiz qabilalarning bosib olinishi tufayli paydo bo‘lgan deb hisoblaydilar.", "correct": false },
+      { "matn": "davlatlarning paydo bo‘lishi sharqiy agrar viloyatlarda ulkan inshootlar qurilishi bilan bog‘lanadi.", "correct": false },
+      { "matn": "davlatning paydo bo‘lishini inson psixologiyasi va itoat istagi bilan izohlaydilar", "correct": false },
+      { "matn": "K.Marks, F.Engels, V.Lenin, G.Plexanov. Bu nazariyaga ko‘ra, sinflar paydo bo‘lishi va ular o‘rtasida sinfiy kurash keskinlashuvining yakunidir. Davlat bir sinfning boshqa sinf ustidan hukmronlik qurolidir.", "correct": true }
+    ]
+  },
+  {
+    "id": 708,
+    "savol": "Bizgacha etib kelgan “Avesto” qismlari …….. davrida, ya’ni milodning III-VII asrlarida tahrir qilingan.",
+    "javob": [
+      { "matn": "sosoniylar", "correct": true },
+      { "matn": "somoniylar", "correct": false },
+      { "matn": "ahamoniylar", "correct": false },
+      { "matn": "siyovushlar", "correct": false }
+    ]
+  },
+  {
+    "id": 709,
+    "savol": "“Avesto” boblari “pahlaviy”- o‘rta fors alifbosi asosida …… ta belgili yozuvdan iboratdir.",
+    "javob": [
+      { "matn": "38", "correct": false },
+      { "matn": "28", "correct": false },
+      { "matn": "48", "correct": true },
+      { "matn": "58", "correct": false }
+    ]
+  },
+  {
+    "id": 710,
+    "savol": "“Avesto” o‘rta fors tilidan “Apastak” ya’ni ………..ma’nosini beradi.",
+    "javob": [
+      { "matn": "hayvon terisi", "correct": false },
+      { "matn": "buyuklik", "correct": false },
+      { "matn": "kitob", "correct": false },
+      { "matn": "asos", "correct": true }
+    ]
+  },
+  {
+    "id": 711,
+    "savol": "Nechanchi yillarda fransuz olimi Anketil Dyuperron Hindistonning Gujorot viloyatida parslarning diniy yozuvlarini o‘qishga muyassar bo‘lgan?",
+    "javob": [
+      { "matn": "1766-1769", "correct": false },
+      { "matn": "1768-1769", "correct": false },
+      { "matn": "1755-1761", "correct": true },
+      { "matn": "1777-1778", "correct": false }
+    ]
+  },
+  {
+    "id": 712,
+    "savol": "Avesto necha kitobdan iborat bo`lgan?",
+    "javob": [
+      { "matn": "22", "correct": false },
+      { "matn": "21", "correct": true },
+      { "matn": "23", "correct": false },
+      { "matn": "24", "correct": false }
+    ]
+  },
+  {
+    "id": 713,
+    "savol": "Avesto qismlarini kim tarjima qilgan?",
+    "javob": [
+      { "matn": "Shampolyon", "correct": false },
+      { "matn": "Dyupperon", "correct": true },
+      { "matn": "I.Morgan", "correct": false },
+      { "matn": "A.Fergyusson", "correct": false }
+    ]
+  },
+  {
+    "id": 714,
+    "savol": "Yasna qanday ma`noni bildiradi?",
+    "javob": [
+      { "matn": "barcha hukmronlar", "correct": false },
+      { "matn": "devlarga qarshi qonun", "correct": false },
+      { "matn": "qurbonlik keltirish", "correct": true },
+      { "matn": "ulug‘lash", "correct": false }
+    ]
+  },
+  {
+    "id": 715,
+    "savol": "Avesto-jamiyati nechta asosiy qismga bo‘linadi?",
+    "javob": [
+      { "matn": "5", "correct": false },
+      { "matn": "4", "correct": true },
+      { "matn": "6", "correct": false },
+      { "matn": "2", "correct": false }
+    ]
+  },
+  {
+    "id": 716,
+    "savol": "Nmana qanday manoni anglatadi?",
+    "javob": [
+      { "matn": "urug‘ jamoasi", "correct": false },
+      { "matn": "oila jamoasi, uy", "correct": true },
+      { "matn": "qabila", "correct": false },
+      { "matn": "qabilalar ittifoqi", "correct": false }
+    ]
+  },
+  {
+    "id": 717,
+    "savol": "Vis qanday manoni anglatadi?",
+    "javob": [
+      { "matn": "oila jamoasi", "correct": false },
+      { "matn": "qabilalar ittifoqi", "correct": false },
+      { "matn": "urug‘ jamoasi", "correct": true },
+      { "matn": "qabila", "correct": false }
+    ]
+  },
+  {
+    "id": 718,
+    "savol": "Zantu qanday manoni anglatadi?",
+    "javob": [
+      { "matn": "oila jamoasi", "correct": false },
+      { "matn": "urug‘ jamoasi", "correct": false },
+      { "matn": "qabila", "correct": true },
+      { "matn": "qabilalar ittifoqi", "correct": false }
+    ]
+  },
+  {
+    "id": 719,
+    "savol": "Daxyu qanday manoni anglatadi?",
+    "javob": [
+      { "matn": "oila jamoasi", "correct": false },
+      { "matn": "qabila", "correct": false },
+      { "matn": "urug‘ jamoasi", "correct": false },
+      { "matn": "qabilalar ittifoqi", "correct": true }
+    ]
+  },
+  {
+    "id": 720,
+    "savol": "Mil. avv. 545-540 yillarda ahamoniylar O‘rta Osiyoning qaysi viloyatlarini bo‘ysundirganlar?",
+    "javob": [
+      { "matn": "parfiya", "correct": false },
+      { "matn": "baqtriya va sug`d", "correct": false },
+      { "matn": "hamma javob to`g`ri", "correct": true },
+      { "matn": "marg`iyona", "correct": false }
+    ]
+  },
+  {
+    "id": 721,
+    "savol": "Kimlarga qarshi Kir II ning yurishlari mil.avv. 530 yilda muvaffaqqiyatsiz yakunlangan?",
+    "javob": [
+      { "matn": "saklar", "correct": false },
+      { "matn": "massagetlar", "correct": true },
+      { "matn": "yunonlarga", "correct": false },
+      { "matn": "makedonarga", "correct": false }
+    ]
+  },
+  {
+    "id": 722,
+    "savol": "O‘rta Osiyoda ahamoniylar …… yildan ziyod hukmronlik qilganlar",
+    "javob": [
+      { "matn": "300", "correct": false },
+      { "matn": "250", "correct": false },
+      { "matn": "200", "correct": true },
+      { "matn": "350", "correct": false }
+    ]
+  },
+  {
+    "id": 723,
+    "savol": "Ahamoniylar hukmronligi o`rta Osiyoda nechanchi yilgacha davom etgan?",
+    "javob": [
+      { "matn": "320", "correct": false },
+      { "matn": "319", "correct": false },
+      { "matn": "545", "correct": false },
+      { "matn": "330", "correct": true }
+    ]
+  },
+  {
+    "id": 724,
+    "savol": "Doro I va Kserks huzuriga turli xalqlarning qanday manzarasi tasvirlangan Persepol shahri topilmalarida?",
+    "javob": [
+      { "matn": "janglari", "correct": false },
+      { "matn": "o`lpon keltirish", "correct": true },
+      { "matn": "bino qurish", "correct": false },
+      { "matn": "ov qilish", "correct": false }
+    ]
+  },
+  {
+    "id": 725,
+    "savol": "“Baqtra daryosi nomidan shahar va viloyatning nomi kelib chiqqan”. Degan malumotni kim yozib qoldirgan?",
+    "javob": [
+      { "matn": "Gerodot", "correct": false },
+      { "matn": "Kvint Kursiy Ruf", "correct": true },
+      { "matn": "Arrian", "correct": false },
+      { "matn": "Poliyen", "correct": false }
+    ]
+  },
+  {
+    "id": 726,
+    "savol": "Persika asari kimga tegishli?",
+    "javob": [
+      { "matn": "Arrian", "correct": false },
+      { "matn": "Ktesiy", "correct": true },
+      { "matn": "Gerodot", "correct": false },
+      { "matn": "Poliyen", "correct": false }
+    ]
+  },
+  {
+    "id": 727,
+    "savol": "Olimlar fikriga ko‘ra, “sak” so‘zi qanday tarjima qilinadi?",
+    "javob": [
+      { "matn": "qudratli", "correct": true },
+      { "matn": "toza", "correct": false },
+      { "matn": "musaffo", "correct": false },
+      { "matn": "kuchli", "correct": false }
+    ]
+  },
+  {
+    "id": 728,
+    "savol": "Burg‘ulik (Burganli) madaniyati qayerda rivojlangan?",
+    "javob": [
+      { "matn": "surxondaryoda", "correct": false },
+      { "matn": "Buxoroda", "correct": false },
+      { "matn": "Xorazmda", "correct": false },
+      { "matn": "Toshkent viloyatida", "correct": true }
+    ]
+  },
+  {
+    "id": 729,
+    "savol": "Chust madaniyati qayerda rivojlanadi?",
+    "javob": [
+      { "matn": "surxondaryoda", "correct": false },
+      { "matn": "Toshkent viloyatida", "correct": false },
+      { "matn": "Buxoroda", "correct": false },
+      { "matn": "Farg‘onada", "correct": true }
+    ]
+  },
+  {
+    "id": 730,
+    "savol": "Mil. avv. 547-546 yillar davomida Kir II qaysi hududlarni istilo qildi?",
+    "javob": [
+      { "matn": "Yunoniston", "correct": false },
+      { "matn": "makedoniya", "correct": false },
+      { "matn": "o`rta osiyo", "correct": false },
+      { "matn": "kichik osiyo", "correct": true }
+    ]
+  },
+  {
+    "id": 731,
+    "savol": "Kir II vafotidan so‘ng taxtga kim o‘tirdi?",
+    "javob": [
+      { "matn": "Kserks", "correct": false },
+      { "matn": "Doro III", "correct": false },
+      { "matn": "Doro I", "correct": false },
+      { "matn": "Kambiz", "correct": true }
+    ]
+  },
+  {
+    "id": 732,
+    "savol": "Nechanchi yilda Makedoniyalik Aleksandrning Baqtriya va Sug‘diyona yerlariga harbiy yurishlari boshlangan?",
+    "javob": [
+      { "matn": "m/a 339", "correct": false },
+      { "matn": "m/a 319", "correct": false },
+      { "matn": "m/a 329", "correct": true },
+      { "matn": "m/a 330", "correct": false }
+    ]
+  },
+  {
+    "id": 733,
+    "savol": "“ Aleksandr anabasisi” degan asarning muallifi kim?",
+    "javob": [
+      { "matn": "Poliyen", "correct": false },
+      { "matn": "Arrian", "correct": true },
+      { "matn": "Gerodot", "correct": false },
+      { "matn": "Kvint Kursiy Ruf", "correct": false }
+    ]
+  },
+  {
+    "id": 734,
+    "savol": "«Makedoniyalik Aleksandr tarixi» asari kimga tegishli?",
+    "javob": [
+      { "matn": "Arrian", "correct": false },
+      { "matn": "Poliyen", "correct": false },
+      { "matn": "Gerodot", "correct": false },
+      { "matn": "Kvint Kursiy Ruf", "correct": true }
+    ]
+  },
+  {
+    "id": 735,
+    "savol": "Aleksandr ortga qaytib …. bo‘yida Aleksandriya Esxata (uzoq, chekka Aleksandriya) shahriga asos soladi",
+    "javob": [
+      { "matn": "Oks", "correct": false },
+      { "matn": "Tiger", "correct": false },
+      { "matn": "Yaksart", "correct": true },
+      { "matn": "Frot", "correct": false }
+    ]
+  },
+  {
+    "id": 736,
+    "savol": "Aleksandr Baqtriya, Sug‘diyona va Ustrushonaning bir qismini istilo qilib, …… yilda Hindistonga hujum boshlaydi",
+    "javob": [
+      { "matn": "mil. avv. 318", "correct": false },
+      { "matn": "mil. avv. 317", "correct": false },
+      { "matn": "mil. avv. 328", "correct": false },
+      { "matn": "mil. avv. 327", "correct": true }
+    ]
+  },
+  {
+    "id": 737,
+    "savol": "Aleksandr bosqinidan so‘ng O‘rta Osiyoda qayerlar mustaqil bo‘lib qoladi?",
+    "javob": [
+      { "matn": "Xorazm", "correct": false },
+      { "matn": "Farg‘ona", "correct": false },
+      { "matn": "Choch, saklar yurti", "correct": false },
+      { "matn": "hamma javob to`g`ri", "correct": true }
+    ]
+  },
+  {
+    "id": 738,
+    "savol": "Yozma manbalarida Qadimgi Sharq va O‘rta Osiyo tarixiy-geografiyasiga oid ma’lumotlarning ko‘payishiga asos solgan omil nima?",
+    "javob": [
+      { "matn": "Aleksandning yurishlari", "correct": true },
+      { "matn": "dengiz sayohatlari", "correct": false },
+      { "matn": "davlatlar paydo bo`lishi", "correct": false },
+      { "matn": "hunarmandchilik rivoji", "correct": false }
+    ]
+  },
+  {
+    "id": 739,
+    "savol": "Mil. avv. 293 yilda Salavk o‘g‘li Antioxni Sharqiy satrapliklarga, ya’ni ……… viloyatlariga o‘zining noibi etib tayinlaydi.",
+    "javob": [
+      { "matn": "Kichik Osiyo", "correct": false },
+      { "matn": "O`rta Osiyo", "correct": true },
+      { "matn": "Bobil", "correct": false },
+      { "matn": "Yunoniston", "correct": false }
+    ]
+  },
+  {
+    "id": 740,
+    "savol": "Yunon-Baqtriya davlati qachon paydo bo`lgan?",
+    "javob": [
+      { "matn": "m/a 230", "correct": false },
+      { "matn": "m/a 220", "correct": false },
+      { "matn": "m/a 320", "correct": false },
+      { "matn": "m/a 250", "correct": true }
+    ]
+  },
+  {
+    "id": 741,
+    "savol": "Qadimgi mualliflar Baqtriyaning poytaxti ……………ni bir necha marta tilga olganlar",
+    "javob": [
+      { "matn": "qiziltepa", "correct": false },
+      { "matn": "maroqand", "correct": false },
+      { "matn": "aleksandiriya esxata", "correct": false },
+      { "matn": "baqtra", "correct": true }
+    ]
+  },
+  {
+    "id": 742,
+    "savol": "Qang` davlati qachon paydo bo`lgan?",
+    "javob": [
+      { "matn": "m/a III asr boshlarida", "correct": true },
+      { "matn": "m/a III o`rtalarida", "correct": false },
+      { "matn": "m/a II boshlarida", "correct": false },
+      { "matn": "m/a II o`rtalarida", "correct": false }
+    ]
+  },
+  {
+    "id": 743,
+    "savol": "Avestoning Visprat qismi qanday manoni anglatadi?",
+    "javob": [
+      { "matn": "qurbonlik keltirish", "correct": false },
+      { "matn": "barcha hukmronlar", "correct": true },
+      { "matn": "qadrlash", "correct": false },
+      { "matn": "devlarga qarshi qonun", "correct": false }
+    ]
+  },
+  {
+    "id": 744,
+    "savol": "Avestoning Videvdat qismi qanday manoni anglatadi?",
+    "javob": [
+      { "matn": "qurbonlik keltirish", "correct": false },
+      { "matn": "barcha hukmronlar", "correct": false },
+      { "matn": "qadrlash", "correct": false },
+      { "matn": "devlarga qarshi qonun", "correct": true }
+    ]
+  },
+  {
+    "id": 745,
+    "savol": "Avestoning yasht qismi qanday manoni anglatadi?",
+    "javob": [
+      { "matn": "qurbonlik keltirish", "correct": false },
+      { "matn": "barcha hukmronlar", "correct": false },
+      { "matn": "qadrlash", "correct": true },
+      { "matn": "devlarga qarshi qonun", "correct": false }
+    ]
+  },
+  {
+    "id": 746,
+    "savol": "Mil. avv. 522-486 yillarda hukmronlik qilgan ahamoniylar sulolasi vakili kim?",
+    "javob": [
+      { "matn": "Doro I", "correct": true },
+      { "matn": "Doro III", "correct": false },
+      { "matn": "Kambiz", "correct": false },
+      { "matn": "Kir II", "correct": false }
+    ]
+  },
+  {
+    "id": 747,
+    "savol": "Gerodot Tarix asarida qaysi O`rta Osiyo xalqlarini eng ko'p tilga oladi?",
+    "javob": [
+      { "matn": "eroniylarni", "correct": false },
+      { "matn": "baqtraliklar", "correct": false },
+      { "matn": "saklar", "correct": false },
+      { "matn": "massagetlar", "correct": true }
+    ]
+  },
+  {
+    "id": 748,
+    "savol": "Maroqanda ahamoniylar davrida uning maydoni ……gektardan iborat bo‘lgan.",
+    "javob": [
+      { "matn": "219", "correct": true },
+      { "matn": "229", "correct": false },
+      { "matn": "209", "correct": false },
+      { "matn": "218", "correct": false }
+    ]
+  },
+  {
+    "id": 749,
+    "savol": "O‘rta Osiyo hududini bosib olishga harakat qilib ko‘rgan dastlabki fors podshosi kim bo‘lgan?",
+    "javob": [
+      { "matn": "Doro I", "correct": false },
+      { "matn": "Kir II", "correct": true },
+      { "matn": "Kserks", "correct": false },
+      { "matn": "Doro II", "correct": false }
+    ]
+  },
+  {
+    "id": 750,
+    "savol": "Kir II tomonidan bosib olingan O‘rta Osiyo hududlarini aniqlang.",
+    "javob": [
+      { "matn": "Parfiya, Midiya va Lidiya", "correct": false },
+      { "matn": "Parfiya, Marg‘iyona va Baqtriya", "correct": true },
+      { "matn": "Midiya, Armaniston va Lidiya", "correct": false },
+      { "matn": "Parfiya, So‘g‘diyona va Gurjiston", "correct": false }
+    ]
+  },
+  {
+    "id": 751,
+    "savol": "Fors shohi Kir II qachon ulkan lashkar bilan massagetlar ustiga yurish qiladi?",
+    "javob": [
+      { "matn": "mil.avv.522-yil", "correct": false },
+      { "matn": "mil.avv.530-yil", "correct": true },
+      { "matn": "mil.avv.545-yil", "correct": false },
+      { "matn": "mil.avv.540-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 752,
+    "savol": "Fors shohi Kir II ning massagetlar ustiga yurishi haqida qaysi tarixchi yozib qoldirgan?",
+    "javob": [
+      { "matn": "Platon", "correct": false },
+      { "matn": "Poliyen", "correct": false },
+      { "matn": "Gerodot", "correct": true },
+      { "matn": "Gomer", "correct": false }
+    ]
+  },
+  {
+    "id": 753,
+    "savol": "Qadimda kim “tarix otasi” deya yuritilgan?",
+    "javob": [
+      { "matn": "Platon", "correct": false },
+      { "matn": "Poliyen", "correct": false },
+      { "matn": "Gomer", "correct": false },
+      { "matn": "Gerodot", "correct": true }
+    ]
+  },
+  {
+    "id": 754,
+    "savol": "Kir II massagetlar ustiga yurish qilganda massagetlar malikasi kim bo‘lgan?",
+    "javob": [
+      { "matn": "Tug‘shoda", "correct": false },
+      { "matn": "Ravshanak", "correct": false },
+      { "matn": "Sparangiz", "correct": false },
+      { "matn": "To‘maris", "correct": true }
+    ]
+  },
+  {
+    "id": 755,
+    "savol": "Forslar massagetlar hududiga bostirib kirganlarida malika To‘maris bosqinchilarga qanday taklif bilan murojaat qiladi?",
+    "javob": [
+      { "matn": "tinch omon ketish taklifi bilan", "correct": true },
+      { "matn": "unga turmushga chiqish taklifi bilan", "correct": false },
+      { "matn": "omon qolish niyatida katta to‘lov taklifi bilan", "correct": false },
+      { "matn": "yurtining bir qismini berish taklifi bilan", "correct": false }
+    ]
+  },
+  {
+    "id": 756,
+    "savol": "Gerodot qaysi jang haqida “Bu jang….. barcha janglardan ham dahshatliroq edi” deb hikoya qiladi?",
+    "javob": [
+      { "matn": "saklarning asosiy kuchlari bilan forslarning janggi haqida", "correct": false },
+      { "matn": "massagetlarning asosiy kuchlari bilan forslarning janggi haqida", "correct": true },
+      { "matn": "Marafon janggi haqida", "correct": false },
+      { "matn": "yunon-makedon janggi haqida", "correct": false }
+    ]
+  },
+  {
+    "id": 757,
+    "savol": "Fors podshosi Kir II qaysi jangda halok bo‘lganligini aniqlang.",
+    "javob": [
+      { "matn": "skiflar bilan bo‘lgan jangda", "correct": false },
+      { "matn": "massagetlar bilan bo‘lgan jangda", "correct": true },
+      { "matn": "midiyaliklar bilan bo‘lgan jangda", "correct": false },
+      { "matn": "saklar bilan bo‘lgan jangda", "correct": false }
+    ]
+  },
+  {
+    "id": 758,
+    "savol": "Fors podshosi Kir II qachon halok bo‘lgan?",
+    "javob": [
+      { "matn": "mil.avv 558-yil", "correct": false },
+      { "matn": "mil.avv 539-yil", "correct": false },
+      { "matn": "mil.avv 525-yil", "correct": false },
+      { "matn": "mil.avv 530-yil", "correct": true }
+    ]
+  },
+  {
+    "id": 759,
+    "savol": "Fors shohi Doro I hukmronligining birinchi yilida qayerda fors istilochilariga qarshi yirik xalq qo‘zg‘oloni ko‘tarilgan edi?",
+    "javob": [
+      { "matn": "So‘g‘diyona", "correct": false },
+      { "matn": "Baqtriya", "correct": false },
+      { "matn": "Xorazm", "correct": false },
+      { "matn": "Marg‘iyona", "correct": true }
+    ]
+  },
+  {
+    "id": 760,
+    "savol": "Marg‘iyonada forslarga qarshi ko‘tarilgan xalq qo‘zg‘oloni rahbari kim edi?",
+    "javob": [
+      { "matn": "Skunxa", "correct": false },
+      { "matn": "Shiroq", "correct": false },
+      { "matn": "To‘maris", "correct": false },
+      { "matn": "Frada", "correct": true }
+    ]
+  },
+  {
+    "id": 761,
+    "savol": "Fors podshosi Doro I qo‘shini va Frada boshchiligidagi qo‘zg‘olonchilar o‘rtasida hal qiluvchi jang qachon bo‘lganligini aniqlang.",
+    "javob": [
+      { "matn": "mil.avv.521-yil", "correct": false },
+      { "matn": "mil.avv.522-yil", "correct": true },
+      { "matn": "mil.avv.519-yil", "correct": false },
+      { "matn": "mil.avv.530-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 762,
+    "savol": "Marg‘iyonadagi qo‘zg‘olon rahbari Fradaning taqdiri nima bo‘ldi?",
+    "javob": [
+      { "matn": "boshqa yurtga qochib ketdi", "correct": false },
+      { "matn": "Doro I ning xizmatiga o‘tdi", "correct": false },
+      { "matn": "asir olinib, qatl etildi", "correct": true },
+      { "matn": "o‘zini-o‘zi o‘ldirdi", "correct": false }
+    ]
+  },
+  {
+    "id": 763,
+    "savol": "Ahamoniylar sulolasi vakili Doro I ning Frada bilan janglari va saklar ustiga yurishi haqida ma’lumotlar qayerda keltirilgan?",
+    "javob": [
+      { "matn": "Behistun qoyatosh yozuvlarida", "correct": true },
+      { "matn": "Geradot asarlarida", "correct": false },
+      { "matn": "Qadimgi O‘rta Osiyo manbalarida", "correct": false },
+      { "matn": "Doro I yilnomalarida", "correct": false }
+    ]
+  },
+  {
+    "id": 764,
+    "savol": "Doro I saklar ustiga qachon yurish qilgan?",
+    "javob": [
+      { "matn": "hukmronligining birinchi yili", "correct": false },
+      { "matn": "hukmronligining ikkinchi yili", "correct": false },
+      { "matn": "hukmronligining uchinchi yili", "correct": true },
+      { "matn": "hukmronligining to‘rtinchi yili", "correct": false }
+    ]
+  },
+  {
+    "id": 765,
+    "savol": "Fors podshosi Doro I qachon saklar ustiga yurish qilgan edi?",
+    "javob": [
+      { "matn": "mil.avv.520-yil", "correct": false },
+      { "matn": "mil.avv.522-yil", "correct": false },
+      { "matn": "mil.avv.519-yil", "correct": true },
+      { "matn": "mil.avv.521-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 766,
+    "savol": "“Behistun bitik” larida Doro I saklarning qaysi guruhiga qarshi jangga kirganligi haqida yozilgan?",
+    "javob": [
+      { "matn": "saka tigraxauda (uchi o‘tkir kuloh kiyib yuruvchi saklar)", "correct": true },
+      { "matn": "saka tiay-taradarayya (daryoning narigi tomonida yashovchi saklar)", "correct": false },
+      { "matn": "saka xaumovarka (muqaddas ichimlikka sig‘inuvchi saklar)", "correct": false },
+      { "matn": "saka akunamatata", "correct": false }
+    ]
+  },
+  {
+    "id": 767,
+    "savol": "Saklar yurtiga Doro I yurish qilganda ularning sardori Skunxa bo‘lganligi haqida qayerda ma’lumot keltirilgan?",
+    "javob": [
+      { "matn": "Poliyen asarida", "correct": false },
+      { "matn": "«Behistun» bitiklarida", "correct": true },
+      { "matn": "Gerodotning asarida", "correct": false },
+      { "matn": "«Avesto» kitobida", "correct": false }
+    ]
+  },
+  {
+    "id": 768,
+    "savol": "Fors podshosi Doro I ning saklar ustiga yurish qilgan qo‘shinini Shiroq ismli cho‘pon mag‘lub qilgani haqidagi ma’lumot bizgacha qanday yetib kelgan?",
+    "javob": [
+      { "matn": "«Behistun» bitiklari orqali", "correct": false },
+      { "matn": "Gerodotning rivoyati orqali", "correct": false },
+      { "matn": "Poliyenning rivoyati orqali", "correct": true },
+      { "matn": "«Avesto» asari orqali", "correct": false }
+    ]
+  },
+  {
+    "id": 769,
+    "savol": "Tarixchi Poliyen qaysi asrda yashaganligini aniqlang.",
+    "javob": [
+      { "matn": "mil.avv.II asrda", "correct": true },
+      { "matn": "mil.avv.V asrda", "correct": false },
+      { "matn": "mil.avv.VI asrda", "correct": false },
+      { "matn": "mil.avv.IV asrda", "correct": false }
+    ]
+  },
+  {
+    "id": 770,
+    "savol": "Poliyenning ma’lumotiga ko‘ra, Doro I ning qaysi xalq ustiga qilgan yurishi muvaffaqiyatsiz tugagan?",
+    "javob": [
+      { "matn": "massagetlar ustiga", "correct": false },
+      { "matn": "so‘g‘diylar ustiga", "correct": false },
+      { "matn": "marg‘iyonaliklar ustiga", "correct": false },
+      { "matn": "saklar ustiga", "correct": true }
+    ]
+  },
+  {
+    "id": 771,
+    "savol": "Bosib olingan mamlakatlarni itoatda tutmoq uchun ahamoniylar yagona davlatni bo‘lib tashlagan alohida viloyatlar qanday atalgan?",
+    "javob": [
+      { "matn": "kent", "correct": false },
+      { "matn": "sagaris", "correct": false },
+      { "matn": "polis", "correct": false },
+      { "matn": "satraplik", "correct": true }
+    ]
+  },
+  {
+    "id": 772,
+    "savol": "Satraplik so‘zi forscha “xshatra” so‘zidan kelib chiqqan. “Xshatra” atamasining ma’nosini toping.",
+    "javob": [
+      { "matn": "mamlakat", "correct": false },
+      { "matn": "tuman", "correct": false },
+      { "matn": "viloyat", "correct": true },
+      { "matn": "davlat", "correct": false }
+    ]
+  },
+  {
+    "id": 773,
+    "savol": "Quyidagi javoblarning qaysi biri satraplarning maqomi va holatini to‘g‘ri aks ettiradi?",
+    "javob": [
+      { "matn": "satrap cheklanmagan hokimiyatga ega bo‘lgan va ko‘pchiligi ahamoniylar sulolasi vakillaridan bo‘lgan", "correct": true },
+      { "matn": "satrap faqat davlat mudofaasi bilan shug‘ullanardi", "correct": false },
+      { "matn": "satraplar xalq tomonidan saylanardi", "correct": false },
+      { "matn": "satrap faqat soliq yig‘ish bilan shug‘ullangan", "correct": false }
+    ]
+  },
+  {
+    "id": 774,
+    "savol": "O‘rta Osiyoning forslar bosib olgan viloyatlari nechta satraplikka bo‘lingan?",
+    "javob": [
+      { "matn": "to‘rt satraplikka", "correct": false },
+      { "matn": "besh satraplikka", "correct": false },
+      { "matn": "ikki satraplikka", "correct": false },
+      { "matn": "uch satraplikka", "correct": true }
+    ]
+  },
+  {
+    "id": 775,
+    "savol": "O‘rta Osiyoning har bir satrapligi……",
+    "javob": [
+      { "matn": "yoshlarni qo‘shinga jalb qilgan", "correct": false },
+      { "matn": "yillik soliq to‘lagan", "correct": true },
+      { "matn": "bir necha mayda birliklarga bo‘lingan", "correct": false },
+      { "matn": "qo‘shin uchun qurol-yarog‘ yasab bergan", "correct": false }
+    ]
+  },
+  {
+    "id": 776,
+    "savol": "O‘rta Osiyo satrapliklari forslarga yillik soliq to‘lashdan tashqari yana nimalarga jalb etilgan?",
+    "javob": [
+      { "matn": "forslarni oziq-ovqat bilan ta’minlab turgan", "correct": false },
+      { "matn": "forslarning harbiy yurishlarida qatnashib turgan", "correct": false },
+      { "matn": "saroy va ibodatxonalar qurilishiga ham safarbar etilgan", "correct": true },
+      { "matn": "fors qo‘shiniga qurol-yarog‘lar yasab berishgan", "correct": false }
+    ]
+  },
+  {
+    "id": 777,
+    "savol": "Ahamoniylardan kimlarning hukmronligi davrida O‘rta Osiyo xalqlari yunon-fors urushlarida qatnashgan edilar?",
+    "javob": [
+      { "matn": "Kambiz II va Doro I davrida", "correct": false },
+      { "matn": "Doro I va Kserks davrida", "correct": true },
+      { "matn": "Kir II va Doro I davrida", "correct": false },
+      { "matn": "Doro I va Doro III davrida", "correct": false }
+    ]
+  },
+  {
+    "id": 778,
+    "savol": "Marafon jangida fors qo‘shinlari markazida O‘rta Osiyoning qaysi xalqi muvaffaqiyatli janglar olib borgan?",
+    "javob": [
+      { "matn": "massagetlar", "correct": false },
+      { "matn": "xorazmliklar", "correct": false },
+      { "matn": "baqtriyaliklar", "correct": false },
+      { "matn": "saklar", "correct": true }
+    ]
+  },
+  {
+    "id": 779,
+    "savol": "Marafon jangi qachon bo‘lgan?",
+    "javob": [
+      { "matn": "mil.avv 480-yil", "correct": false },
+      { "matn": "mil.avv 479-yil", "correct": false },
+      { "matn": "mil.avv 490-yil", "correct": true },
+      { "matn": "mil.avv 449-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 780,
+    "savol": "Qaysi tarixchi Kserks boshchiligida yunonlar ustiga yurish qilgan O‘rta Osiyolik jangchilar qurol-yarog‘larini mufassal tasvirlagan?",
+    "javob": [
+      { "matn": "Poliyen", "correct": false },
+      { "matn": "Gerodot", "correct": true },
+      { "matn": "Sima Szyan", "correct": false },
+      { "matn": "Arrian", "correct": false }
+    ]
+  },
+  {
+    "id": 781,
+    "savol": "Yunon-fors urushida baqtriyaliklar jangda qanday qurollar bilan qatnashganlar?",
+    "javob": [
+      { "matn": "xanjar va jangovar boltalar bilan", "correct": false },
+      { "matn": "xanjar va nayzalar bilan", "correct": false },
+      { "matn": "kamon va oyboltalar bilan", "correct": false },
+      { "matn": "kamon va nayzalar bilan", "correct": true }
+    ]
+  },
+  {
+    "id": 782,
+    "savol": "Yunon-fors urushlarida qaysi O‘rta Osiyo xalqi xanjar va jangovar boltalar bilan qatnashgan?",
+    "javob": [
+      { "matn": "massagetlar", "correct": false },
+      { "matn": "baqtriyaliklar", "correct": false },
+      { "matn": "saklar", "correct": true },
+      { "matn": "xorazmliklar", "correct": false }
+    ]
+  },
+  {
+    "id": 783,
+    "savol": "Yunon-fors urushlarida xorazmiylar va so‘g‘diylar qanday qurollar bilan qatnashganlar?",
+    "javob": [
+      { "matn": "xanjar va jangovar boltalar bilan", "correct": false },
+      { "matn": "kamon va nayzalar bilan", "correct": true },
+      { "matn": "xanjar va nayzalar bilan", "correct": false },
+      { "matn": "kamon va oyboltalar bilan", "correct": false }
+    ]
+  },
+  {
+    "id": 784,
+    "savol": "Kserks qo‘shinidagi eng yaxshi jangchilar kimlar hisoblangan?",
+    "javob": [
+      { "matn": "baqtriya va massaget suvoriylari", "correct": false },
+      { "matn": "sak va baqtriya suvoriylari", "correct": true },
+      { "matn": "sak va massaget jangchilari", "correct": false },
+      { "matn": "baqtriya va so‘g‘d askarlari", "correct": false }
+    ]
+  },
+  {
+    "id": 785,
+    "savol": "Mil.avv VI – IV asrlarda O‘rta Osiyo madaniyatining rivojlanishi qanday manbalar asosida o‘rganilgan?",
+    "javob": [
+      { "matn": "yozma", "correct": false },
+      { "matn": "arxeologik", "correct": false },
+      { "matn": "yozma va arxeologik", "correct": true },
+      { "matn": "moddiy", "correct": false }
+    ]
+  },
+  {
+    "id": 786,
+    "savol": "Ahamoniylar davrida o‘lkamizning rivojlangan yirik qadimiy shahar-qal’alarini aniqlang.",
+    "javob": [
+      { "matn": "Qiziltepa, Uzunqir, Yerqo‘rg‘on, Afrosiyob", "correct": true },
+      { "matn": "Qiziltepa, Oltintepa, Ko‘zaliqir, Afrosiyob", "correct": false },
+      { "matn": "Qiziltepa, Yerqo‘rg‘on, Baqtra, Afrosiyob", "correct": false },
+      { "matn": "Qiziltepa, Yerqo‘rg‘on, Ko‘zaliqir, Uzunqir", "correct": false }
+    ]
+  },
+  {
+    "id": 787,
+    "savol": "Amudaryo xazinasi qachon topilganligini aniqlang.",
+    "javob": [
+      { "matn": "1807-yil", "correct": false },
+      { "matn": "1877-yil", "correct": true },
+      { "matn": "1870-yil", "correct": false },
+      { "matn": "1822-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 788,
+    "savol": "Amudaryo xazinasidan qanday buyumlar topilgan?",
+    "javob": [
+      { "matn": "mis va kumush", "correct": false },
+      { "matn": "bronza va oltin", "correct": false },
+      { "matn": "oltin va kumush", "correct": true },
+      { "matn": "la’l va mis", "correct": false }
+    ]
+  },
+  {
+    "id": 789,
+    "savol": "“Amudaryo xazinasi” bugungi kunda qayerda saqlanmoqda?",
+    "javob": [
+      { "matn": "Parij muzeyida", "correct": false },
+      { "matn": "Peterburg davlat muzeyida", "correct": false },
+      { "matn": "Britaniya muzeyida", "correct": true },
+      { "matn": "O‘zbekiston tarixi davlat muzeyida", "correct": false }
+    ]
+  },
+  {
+    "id": 790,
+    "savol": "Amudaryo xazinasiga oid buyumni qayd eting.",
+    "javob": [
+      { "matn": "bronzadan yasalgan qozon", "correct": false },
+      { "matn": "temirdan ishlangan xanjar va qin", "correct": false },
+      { "matn": "bronzadan yasalgan dubulg‘a", "correct": false },
+      { "matn": "oltin bilaguzuk", "correct": true }
+    ]
+  },
+  {
+    "id": 791,
+    "savol": "Oltindan yasalgan ot-arava nusxasi nechanchi asrlarga oid?",
+    "javob": [
+      { "matn": "mil.avv VI-V asrlar", "correct": false },
+      { "matn": "mil.avv V-IV asrlar", "correct": true },
+      { "matn": "mil.avv IV-III asrlar", "correct": false },
+      { "matn": "mil.avv III-II asrlar", "correct": false }
+    ]
+  },
+  {
+    "id": 792,
+    "savol": "Quyidagilardan qaysi voqea boshqalarga nisbatan keyin sodir bo‘lgan?",
+    "javob": [
+      { "matn": "Doro I ning saklar ustiga yurishi muvaffaqiyatsiz tugaydi", "correct": false },
+      { "matn": "Kir II massagetlar bilan jangda halok bo‘ldi", "correct": false },
+      { "matn": "Doro I yunonlarga qarshi Marafon jangida mag‘lubiyatga uchradi", "correct": true },
+      { "matn": "Marg‘iyonada Frada boshchiligidagi qo‘zg‘olon bostirildi", "correct": false }
+    ]
+  },
+  {
+    "id": 793,
+    "savol": "Nechanchi asrlarda O‘rta Osiyo jangchilari sovut kiyib yurganlar, boshlarida dubulg‘a bo‘lgan, xanjar, jangovar oybolta va nayzalar bilan qurollangan?",
+    "javob": [
+      { "matn": "mil.avv IX-VIII asrlarda", "correct": false },
+      { "matn": "Mil.avv VIII-VI asrlarda", "correct": false },
+      { "matn": "Mil.avv VII-IV asrlarda", "correct": true },
+      { "matn": "Mil.avv VI-IV asrlarda", "correct": false }
+    ]
+  },
+  {
+    "id": 794,
+    "savol": "Mil.avv VII – IV asrlarda O‘rta Osiyo jangchilarining kamon o‘qi va xanjari nimadan yasalgan?",
+    "javob": [
+      { "matn": "mis va bronzadan", "correct": false },
+      { "matn": "temir va bronzadan", "correct": true },
+      { "matn": "tosh va temirdan", "correct": false },
+      { "matn": "oltin va kumushdan", "correct": false }
+    ]
+  },
+  {
+    "id": 795,
+    "savol": "Mil.avv.VII-IV asrlarda O‘rta Osiyo xalqlari orasida xanjar qanday atalgan?",
+    "javob": [
+      { "matn": "«ostrakon»", "correct": false },
+      { "matn": "«sagaris»", "correct": false },
+      { "matn": "«ossuariy»", "correct": false },
+      { "matn": "«akinak»", "correct": true }
+    ]
+  },
+  {
+    "id": 796,
+    "savol": "Mil.avv.VII-IV asrlarda O‘rta Osiyo xalqlari orasida «sagaris» qanday qurol bo‘lgan?",
+    "javob": [
+      { "matn": "xanjar", "correct": false },
+      { "matn": "nayza", "correct": false },
+      { "matn": "jangovar oybolta", "correct": true },
+      { "matn": "bargustvon", "correct": false }
+    ]
+  },
+  {
+    "id": 797,
+    "savol": "Mil.avv VII – IV asrlarda uzoq masofadan turib jang qilish quroli sifatida nimadan foydalanilgan?",
+    "javob": [
+      { "matn": "xanjardan", "correct": false },
+      { "matn": "jangovar oyboltadan", "correct": false },
+      { "matn": "toshdan", "correct": false },
+      { "matn": "kamondan", "correct": true }
+    ]
+  },
+  {
+    "id": 798,
+    "savol": "Jangovar otlar ustiga va ko‘kraklariga temirdan yasalgan nima yopilgan?",
+    "javob": [
+      { "matn": "sagaris", "correct": false },
+      { "matn": "akinak", "correct": false },
+      { "matn": "bargustvon", "correct": true },
+      { "matn": "ossuariy", "correct": false }
+    ]
+  },
+  {
+    "id": 799,
+    "savol": "Mil.avv. VII-IV asrlarda O‘rta Osiyo xalqlarining jang uslubiga ko‘ra dushmanga qarshi hujumni kimlar boshlab berishgan?",
+    "javob": [
+      { "matn": "piyodalar", "correct": false },
+      { "matn": "suvoriylar", "correct": true },
+      { "matn": "kamonchilar", "correct": false },
+      { "matn": "ayg‘oqchilar", "correct": false }
+    ]
+  },
+  {
+    "id": 800,
+    "savol": "Mil.avv. VII-IV asrlarda suvoriylar dushmanga qarshi qanday jang taktikasini qo‘llaganlar?",
+    "javob": [
+      { "matn": "aylana shaklida dushman safini o‘rab olgan", "correct": false },
+      { "matn": "dushman qo‘shinining qanotini aylanib o‘tib, orqadan hujum qilgan", "correct": false },
+      { "matn": "ot choptirib kelayotib o‘q-yoy, nayza yoki xanjar bilan dushmanga hamla qilgan", "correct": true },
+      { "matn": "dushman suvoriylariga qarshi ot yonida turib piyoda jang qilgan", "correct": false }
+    ]
+  },
+  {
+    "id": 801,
+    "savol": "Mil.avv VII – IV asrlarda O‘rta Osiyo shaharlari nimalar bilan o‘rab olingan edi?",
+    "javob": [
+      { "matn": "burj va shinaklari bo‘lgan mustahkam devorlar bilan", "correct": true },
+      { "matn": "ariqlar bilan", "correct": false },
+      { "matn": "daraxtlar bilan", "correct": false },
+      { "matn": "hayvonlar bilan", "correct": false }
+    ]
+  },
+  {
+    "id": 802,
+    "savol": "Mil.avv VII – IV asrlarda O‘rta Osiyo shaharlarining tashqi devorlar bo‘ylab joylashgan dumaloq burjlar ichida kimlar joylashgan?",
+    "javob": [
+      { "matn": "suvoriylar", "correct": false },
+      { "matn": "piyodalar", "correct": false },
+      { "matn": "kamonchilar", "correct": true },
+      { "matn": "ayg‘oqchilar", "correct": false }
+    ]
+  },
+  {
+    "id": 803,
+    "savol": "Mil.avv VII – IV asrlarda O‘rta Osiyo shaharlarida qal’aga kiradigan yo‘lni nimalar to‘sib turgan?",
+    "javob": [
+      { "matn": "suv to‘latilgan chuqur va keng xandaq", "correct": true },
+      { "matn": "hayvonlar", "correct": false },
+      { "matn": "o‘rmonlar", "correct": false },
+      { "matn": "tog‘lar", "correct": false }
+    ]
+  },
+  {
+    "id": 804,
+    "savol": "Aleksandr qachon Makedoniya podshosi bo‘lgan edi?",
+    "javob": [
+      { "matn": "mil.avv.337-yil", "correct": false },
+      { "matn": "mil.avv.335-yil", "correct": false },
+      { "matn": "mil.avv.334-yil", "correct": false },
+      { "matn": "mil.avv.336-yil", "correct": true }
+    ]
+  },
+  {
+    "id": 805,
+    "savol": "Makedoniya podshosi Aleksandr nechanchi yilda Sharqqa yurish boshladi?",
+    "javob": [
+      { "matn": "Mil.avv 334-yilda", "correct": true },
+      { "matn": "Mil.avv 336-yil", "correct": false },
+      { "matn": "Mil.avv 330-yil", "correct": false },
+      { "matn": "Mil.avv 329-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 806,
+    "savol": "Makedoniyalik Aleksandrning Sharqqa yurishi necha yil davom etgan?",
+    "javob": [
+      { "matn": "5 yil", "correct": false },
+      { "matn": "8 yil", "correct": false },
+      { "matn": "10 yil", "correct": true },
+      { "matn": "12 yil", "correct": false }
+    ]
+  },
+  {
+    "id": 807,
+    "savol": "Makedoniyalik Aleksandr nima maqsadda bosib olingan shaharlarga yunonlarni joylashtirdi?",
+    "javob": [
+      { "matn": "aholini ellinlashtirish maqsadida", "correct": false },
+      { "matn": "ulkan hududda o‘z hukmronligini mustahkamlash maqsadida", "correct": true },
+      { "matn": "bosib olingan shaharlar aholisining hammasi qirilib ketganligi uchun", "correct": false },
+      { "matn": "yunonlarni oliy irq deb bilgani uchun", "correct": false }
+    ]
+  },
+  {
+    "id": 808,
+    "savol": "Ahamoniylar sulolasidan bo‘lgan oxirgi shohni aniqlang.",
+    "javob": [
+      { "matn": "Doro I", "correct": false },
+      { "matn": "Doro II", "correct": false },
+      { "matn": "Doro III", "correct": true },
+      { "matn": "Kserks", "correct": false }
+    ]
+  },
+  {
+    "id": 809,
+    "savol": "Makedoniyalik Aleksandr qachon Fors shohi Doro III qo‘shinlarini tor-mor qilgan edi?",
+    "javob": [
+      { "matn": "mil.avv.329-yil", "correct": false },
+      { "matn": "mil.avv.323-yil", "correct": false },
+      { "matn": "mil.avv.327-yil", "correct": false },
+      { "matn": "mil.avv.330-yil", "correct": true }
+    ]
+  },
+  {
+    "id": 810,
+    "savol": "Makedoniyalik Aleksandr nima maqsadda Amudaryoning narigi tomonida yashovchi elatlarni bo‘ysundirishga qaror qilgan edi?",
+    "javob": [
+      { "matn": "Eronga yurish qilishdan oldin orqa tomonni xavfsizlantirish maqsadida", "correct": false },
+      { "matn": "Hindistonga yurish qilishdan oldin orqa tomonni xavfsizlantirish maqsadida", "correct": true },
+      { "matn": "Xorazmga yurish qilishdan oldin orqa tomonni xavfsizlantirish maqsadida", "correct": false },
+      { "matn": "Qora dengiz bo‘yiga yurish qilishdan oldin orqa tomonni xavfsizlantirish maqsadida", "correct": false }
+    ]
+  },
+  {
+    "id": 811,
+    "savol": "Makedoniyalik Aleksandrning O‘rta Osiyoga yurishida birinchi bo‘lib qaysi shahar uning yo‘lini to‘sgan edi?",
+    "javob": [
+      { "matn": "Nautaka", "correct": false },
+      { "matn": "Kiropolis", "correct": false },
+      { "matn": "Marv", "correct": false },
+      { "matn": "Baqtra", "correct": true }
+    ]
+  },
+  {
+    "id": 812,
+    "savol": "Mil.avv IV asrda Baqtriya poytaxti qaysi shahar edi?",
+    "javob": [
+      { "matn": "Nautaka", "correct": false },
+      { "matn": "Kiropolis", "correct": false },
+      { "matn": "Marv", "correct": false },
+      { "matn": "Baqtra", "correct": true }
+    ]
+  },
+  {
+    "id": 813,
+    "savol": "Baqtriya poytaxti bo‘lgan Baqtra shahrining ikkinchi nomini aniqlang.",
+    "javob": [
+      { "matn": "Politimet", "correct": false },
+      { "matn": "Zariasp", "correct": true },
+      { "matn": "Zarqaynar", "correct": false },
+      { "matn": "Kurushkat", "correct": false }
+    ]
+  },
+  {
+    "id": 814,
+    "savol": "Makedoniyalik Aleksandr bosqini davrida Baqtriya satrapi kim bo‘lgan?",
+    "javob": [
+      { "matn": "Dadarshish", "correct": false },
+      { "matn": "Xoriyen", "correct": false },
+      { "matn": "Ariamen", "correct": false },
+      { "matn": "Bess", "correct": true }
+    ]
+  },
+  {
+    "id": 815,
+    "savol": "Aleksandrga qarshi kurashda Bess qanday yo'l tutadi?",
+    "javob": [
+      { "matn": "Aleksandr bilan yakkama-yakka jang qilib uni yengadi", "correct": false },
+      { "matn": "Baqtra shahrini dushmanga qoldirib, Amudaryoning narigi tarafiga qochib ketadi", "correct": true },
+      { "matn": "Zarafshon daryosi bo‘yida unga qarshi pistirma qo‘yadi", "correct": false },
+      { "matn": "o‘zini o‘zi o‘ldiradi", "correct": false }
+    ]
+  },
+  {
+    "id": 816,
+    "savol": "Aleksandr kimning Kir II va Doro I tajribasiga tayanib bergan maslahatini yodda tutgan edi?",
+    "javob": [
+      { "matn": "Aristobul", "correct": false },
+      { "matn": "Oksiart", "correct": false },
+      { "matn": "Aristotel", "correct": true },
+      { "matn": "Bess", "correct": false }
+    ]
+  },
+  {
+    "id": 817,
+    "savol": "Makedoniyalik Aleksandr qo‘shinlari qachon Amudaryodan o‘ta boshladi?",
+    "javob": [
+      { "matn": "miloddan avvalgi 323- yilda", "correct": false },
+      { "matn": "miloddan avvalgi 333- yilda", "correct": false },
+      { "matn": "miloddan avvalgi 329- yilda", "correct": true },
+      { "matn": "miloddan avvalgi 330- yilda", "correct": false }
+    ]
+  },
+  {
+    "id": 818,
+    "savol": "Amudaryoning qadimgi nomi nima bo‘lgan?",
+    "javob": [
+      { "matn": "Yaksart", "correct": false },
+      { "matn": "Politimet", "correct": false },
+      { "matn": "Jayhun", "correct": false },
+      { "matn": "Oks", "correct": true }
+    ]
+  },
+  {
+    "id": 819,
+    "savol": "Nautaka deb nomlangan hududning geografik o‘rnini aniqlang.",
+    "javob": [
+      { "matn": "Sirdaryo qirg‘oqlaridagi hudud", "correct": false },
+      { "matn": "Qashqadaryo vohasining sharqiy qismi", "correct": true },
+      { "matn": "Farg‘ona sohasining sharqiy qismi", "correct": false },
+      { "matn": "Surxondaryo vohasining sharqiy qismi", "correct": false }
+    ]
+  },
+  {
+    "id": 820,
+    "savol": "Maroqanda shahri hozirgi qaysi shahar hisoblanadi?",
+    "javob": [
+      { "matn": "Buxoro", "correct": false },
+      { "matn": "Marv", "correct": false },
+      { "matn": "Marg‘ilon", "correct": false },
+      { "matn": "Samarqand", "correct": true }
+    ]
+  },
+  {
+    "id": 821,
+    "savol": "Makedoniyalik Aleksandr qo‘shinlari qachon Maroqandani egallaydilar?",
+    "javob": [
+      { "matn": "mil.avv.330-yil", "correct": false },
+      { "matn": "mil.avv.327-yil", "correct": false },
+      { "matn": "mil.avv.329-yil", "correct": true },
+      { "matn": "mil.avv.328-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 822,
+    "savol": "Makedoniyalik Aleksandr Maroqandani egallagach qayerni bosib olish uchun yurish qilgan?",
+    "javob": [
+      { "matn": "Kurushkat va Sirdaryo qirg‘oqlarini", "correct": true },
+      { "matn": "Nautaka va uning atrofini", "correct": false },
+      { "matn": "Xorazm hududlarini", "correct": false },
+      { "matn": "Marg‘iyona viloyatini", "correct": false }
+    ]
+  },
+  {
+    "id": 823,
+    "savol": "Sirdaryo qirg‘oqlarida joylashgan Kurushkat shahriga kim asos solgan?",
+    "javob": [
+      { "matn": "Kserks", "correct": false },
+      { "matn": "Makedoniyalik Aleksandr", "correct": false },
+      { "matn": "Kir II", "correct": true },
+      { "matn": "Kambiz", "correct": false }
+    ]
+  },
+  {
+    "id": 824,
+    "savol": "Kurushkat shahrining ikkinchi nomini aniqlang.",
+    "javob": [
+      { "matn": "Zariasp", "correct": false },
+      { "matn": "Politimet", "correct": false },
+      { "matn": "Kiropolis", "correct": true },
+      { "matn": "Karmana", "correct": false }
+    ]
+  },
+  {
+    "id": 825,
+    "savol": "Yunon-makedon bosqinchilariga qarshi So‘g‘diyona xalqi kurashiga tez orada kimlar qo‘shiladi?",
+    "javob": [
+      { "matn": "sak va massagetlar", "correct": false },
+      { "matn": "baqtriyaliklar va saklar", "correct": true },
+      { "matn": "xorazmiylar va parfiyaliklar", "correct": false },
+      { "matn": "baqtriyaliklar va xorazmiylar", "correct": false }
+    ]
+  },
+  {
+    "id": 826,
+    "savol": "O‘rta Osiyoda Aleksandrga qarshi ko‘tarilgan qo‘zg‘olonga kim rahbarlik qilgan?",
+    "javob": [
+      { "matn": "Bess", "correct": false },
+      { "matn": "Oksiart", "correct": false },
+      { "matn": "Sparangiz", "correct": false },
+      { "matn": "Spitaman", "correct": true }
+    ]
+  },
+  {
+    "id": 827,
+    "savol": "Spitaman Maroqandani qamal qilganda, Aleksandr yordamga qancha jangchi jo‘natadi?",
+    "javob": [
+      { "matn": "ikki mingga yaqin", "correct": false },
+      { "matn": "uch mingga yaqin", "correct": true },
+      { "matn": "to‘rt mingga yaqin", "correct": false },
+      { "matn": "besh mingga yaqin", "correct": false }
+    ]
+  },
+  {
+    "id": 828,
+    "savol": "Spitaman qayerda makedonlarga pistirma qo‘ygandi?",
+    "javob": [
+      { "matn": "Zarafshon daryosi bo‘yida", "correct": true },
+      { "matn": "Sirdaryo bo‘yida", "correct": false },
+      { "matn": "Kurushkat shahrida", "correct": false },
+      { "matn": "Amudaryo bo‘yida", "correct": false }
+    ]
+  },
+  {
+    "id": 829,
+    "savol": "Makedoniyalik Aleksandr yurishi davrida qaysi daryo «Politimet» deb nomlangan?",
+    "javob": [
+      { "matn": "Hind daryosi", "correct": false },
+      { "matn": "Sirdaryo", "correct": false },
+      { "matn": "Amudaryo", "correct": false },
+      { "matn": "Zarafshon", "correct": true }
+    ]
+  },
+  {
+    "id": 830,
+    "savol": "Makedoniyalik Aleksandr qo‘shinining bir qismi Spitaman tomonidan qayerda qirib tashlangan?",
+    "javob": [
+      { "matn": "Sirdaryo bo‘yida", "correct": false },
+      { "matn": "Zarafshon daryosi bo‘yida", "correct": true },
+      { "matn": "Kurushkat shahrida", "correct": false },
+      { "matn": "Amudaryo bo‘yida", "correct": false }
+    ]
+  },
+  {
+    "id": 831,
+    "savol": "Makedoniyalik Aleksandr nima sababdan Aleksandriya Esxata qal’asini qurishni buyurgan?",
+    "javob": [
+      { "matn": "yunon-makedon piyoda va otliq askarlarini joylashtirish uchun", "correct": false },
+      { "matn": "saklarga qarshi kurash uchun", "correct": true },
+      { "matn": "O‘rta Osiyoda o‘zining markaziy qal’asi yo‘qligi uchun", "correct": false },
+      { "matn": "Ravshanakka uylangani uchun", "correct": false }
+    ]
+  },
+  {
+    "id": 832,
+    "savol": "Saklarga qarshi kurash uchun Aleksandr Sirdaryo bo‘yida, Xo‘jand yaqinida barpo etgan qal’a nima deb atalgan?",
+    "javob": [
+      { "matn": "Aleksandriya Esxata", "correct": true },
+      { "matn": "Oksdagi Aleksandriya", "correct": false },
+      { "matn": "Aleksandr Ekota", "correct": false },
+      { "matn": "Marg‘iyona Aleksandriyasi", "correct": false }
+    ]
+  },
+  {
+    "id": 833,
+    "savol": "“Aleksandriya Esxata” qal’asining ma’nosi nima?",
+    "javob": [
+      { "matn": "Buyuk Aleksandriya", "correct": false },
+      { "matn": "Shamoldan kuchli Aleksandriya", "correct": false },
+      { "matn": "Chekka Aleksandriya", "correct": true },
+      { "matn": "Shoxli Aleksandriya", "correct": false }
+    ]
+  },
+  {
+    "id": 834,
+    "savol": "Maroqandada maxsus harbiy qo‘shin qoldirgan Aleksandr asosiy qo‘shinlari bilan qishlash uchun qayerga jo‘naydi?",
+    "javob": [
+      { "matn": "Zariasp", "correct": true },
+      { "matn": "Politimet", "correct": false },
+      { "matn": "Zarqaynar", "correct": false },
+      { "matn": "Kurushkat", "correct": false }
+    ]
+  },
+  {
+    "id": 835,
+    "savol": "Aleksandr o‘z lashkarlarini necha qismga bo‘lib, So‘g‘diyonani u boshidan bu boshigacha kezib chiqadi?",
+    "javob": [
+      { "matn": "2 qismga", "correct": false },
+      { "matn": "3 qismga", "correct": true },
+      { "matn": "4 qismga", "correct": false },
+      { "matn": "5 qismga", "correct": false }
+    ]
+  },
+  {
+    "id": 836,
+    "savol": "Makedoniyalik Aleksandr bilan Spitaman o‘rtasidagi hal qiluvchi jang qachon bo‘lib o‘tgan edi?",
+    "javob": [
+      { "matn": "mil.avv.330-yil kuzida", "correct": false },
+      { "matn": "mil.avv.327-yil kuzida", "correct": false },
+      { "matn": "mil.avv.329-yil kuzida", "correct": false },
+      { "matn": "mil.avv.328-yil kuzida", "correct": true }
+    ]
+  },
+  {
+    "id": 837,
+    "savol": "Mil.avv 328-yil kuzida Spitamanning Aleksandrdan yengilib, cho‘lga chekinishiga nima sabab bo'lgan?",
+    "javob": [
+      { "matn": "ob-havo noqulay kelganligi uchun", "correct": false },
+      { "matn": "baqtriyaliklar va saklar xoinlik qilganligi uchun", "correct": false },
+      { "matn": "kuchlar teng bo‘lmaganligi uchun", "correct": true },
+      { "matn": "Spitamanning oti o‘lib qolganligi uchun", "correct": false }
+    ]
+  },
+  {
+    "id": 838,
+    "savol": "Spitaman Aleksandr bilan hal qiluvchi jangda yengilib, cho‘lga chekinadi va o‘sha yerda u ...",
+    "javob": [
+      { "matn": "mustahkam mudofaa inshootlarini barpo qiladi", "correct": false },
+      { "matn": "Xorazm elchilarini qabul qiladi", "correct": false },
+      { "matn": "sak va massaget qabilalari bilan ittifoq tuzadi", "correct": false },
+      { "matn": "xoinlarcha o‘ldiriladi", "correct": true }
+    ]
+  },
+  {
+    "id": 839,
+    "savol": "Makedoniyalik Aleksandr qo‘lga kiritgan Xoriyen va Oksiartning tog‘ qal’alari qayerda joylashgan edi?",
+    "javob": [
+      { "matn": "Qashqadaryo vohasining sharqida", "correct": false },
+      { "matn": "Pomir tog‘larida", "correct": false },
+      { "matn": "Sirdaryo bo‘ylarida", "correct": false },
+      { "matn": "Hisor tog‘larida", "correct": true }
+    ]
+  },
+  {
+    "id": 840,
+    "savol": "Makedoniyalik Aleksandr uylangan Ravshanak qaysi qabiladan edi?",
+    "javob": [
+      { "matn": "sak qabilasidan", "correct": false },
+      { "matn": "fors qabilasidan", "correct": false },
+      { "matn": "so‘g‘d qabilasidan", "correct": true },
+      { "matn": "massaget qabilasidan", "correct": false }
+    ]
+  },
+  {
+    "id": 841,
+    "savol": "Aleksandr uylangan Ravshanak kimning qizi bo‘lgan?",
+    "javob": [
+      { "matn": "Xoriyenning", "correct": false },
+      { "matn": "Oksiartning", "correct": true },
+      { "matn": "Spitamanning", "correct": false },
+      { "matn": "To‘marisning", "correct": false }
+    ]
+  },
+  {
+    "id": 842,
+    "savol": "Salavka qachon Bobil (Suriya davlati) hukmdori bo‘lgan edi?",
+    "javob": [
+      { "matn": "Mil. avv. 312-yil", "correct": true },
+      { "matn": "Mil. avv. 303-yil", "correct": false },
+      { "matn": "Mil. avv. 314-yil", "correct": false },
+      { "matn": "Mil. avv. 308-yil", "correct": false }
+    ]
+  },
+  {
+    "id": 843,
+    "savol": "Salavka davlatining tarkibiga qaysi hududlar kirar edi?",
+    "javob": [
+      { "matn": "Misr, Eron, Baqtriya, Hindiston, Marg‘iyona", "correct": false },
+      { "matn": "Mesopotamiya, Eron, Parfiya, Baqtriya", "correct": false },
+      { "matn": "So‘g‘diyona, Hindiston, Eron, Parfiya, Baqtriya", "correct": false },
+      { "matn": "Mesopotamiya, Eron, Parfiya, Baqtriya, So‘g‘diyona, Marg‘iyona", "correct": true }
+    ]
+  },
+  {
+    "id": 844,
+    "savol": "Marg‘iyona Antioxiysi o‘sha vaqtdagi qaysi shahar edi?",
+    "javob": [
+      { "matn": "Termiz", "correct": false },
+      { "matn": "Baqtra", "correct": false },
+      { "matn": "Nishopur", "correct": false },
+      { "matn": "Marv", "correct": true }
+    ]
+  },
+  {
+    "id": 845,
+    "savol": "O‘rta Osiyo tarixida antik davr qaysi voqeadan so‘ng boshlanadi?",
+    "javob": [
+      { "matn": "Forslar istilolaridan keyin", "correct": false },
+      { "matn": "Yunon-makedon istilolaridan keyin", "correct": true },
+      { "matn": "Buyuk ipak yo‘li paydo bo‘lgandan so‘ng", "correct": false },
+      { "matn": "Xionitlar bosqinidan so'ng", "correct": false }
+    ]
+  },
+  {
+    "id": 846,
+    "savol": "Salavk o‘z davlati tarkibiga kirgan O‘rta Osiyoni qanday alohida viloyatlarga ajratdi?",
+    "javob": [
+      { "matn": "Nomlar", "correct": false },
+      { "matn": "Satraplik", "correct": true },
+      { "matn": "Davlatlar", "correct": false },
+      { "matn": "Tumanlar", "correct": false }
+    ]
+  },
+  {
+    "id": 847,
+    "savol": "Antiox davrida asta-sekinlik bilan qaysi hududlarda tinch hayot tiklana boshlandi?",
+    "javob": [
+      { "matn": "So‘g‘diyona, Baqtriya va Marg‘iyonada", "correct": true },
+      { "matn": "Parfiya, Baqtriya va Marg‘iyonada", "correct": false },
+      { "matn": "Parfiya, Baqtriya, So‘g‘diyonada", "correct": false },
+      { "matn": "Xorazm va Farg'onada", "correct": false }
+    ]
+  },
+  {
+    "id": 848,
+    "savol": "Qaysi hududda yunon yozuvi, o'lchov birliklari va san’at buyumlari keng tarqaldi?",
+    "javob": [
+      { "matn": "Parfiyada", "correct": false },
+      { "matn": "Termizda", "correct": false },
+      { "matn": "Baqtriya", "correct": true },
+      { "matn": "So‘g‘diyona", "correct": false }
+    ]
+  },
+  {
+    "id": 849,
+    "savol": "Yunonlar qaysi hududning binokorlik va hunarmandchilik an’analarini o‘zlashtirdilar?",
+    "javob": [
+      { "matn": "Marg‘iyonada", "correct": false },
+      { "matn": "So‘g‘diyona", "correct": false },
+      { "matn": "Baqtriya", "correct": true },
+      { "matn": "Parfiya", "correct": false }
+    ]
+  },
+  {
+    "id": 850,
+    "savol": "Antiox ulkan davlat boshida turib, uni necha yil boshqardi?",
+    "javob": [
+      { "matn": "20 yilga yaqin", "correct": true },
+      { "matn": "25 yilga yaqin", "correct": false },
+      { "matn": "18 yilga oshiqroq", "correct": false },
+      { "matn": "20 yildan oshiqroq", "correct": false }
+    ]
+  },
+  {
+    "id": 851,
+    "savol": "Antik davr tarixchilarining xabar berishicha, mingta Baqtriya shahri hukmdori bo‘lmish kim o‘zini podsho deb e’lon qiladi?",
+    "javob": [
+      { "matn": "Yevtidem", "correct": false },
+      { "matn": "Antiox", "correct": false },
+      { "matn": "Diodot", "correct": true },
+      { "matn": "Demetriy", "correct": false }
+    ]
+  },
+  {
+    "id": 852,
+    "savol": "Mil. avv. 250-yilda Salavkiylar davlati tarkibidan ajralib chiqqan qaysi davlat Baqtriyaning raqibiga aylanadi?",
+    "javob": [
+      { "matn": "Marg‘iyona", "correct": false },
+      { "matn": "Parfiya", "correct": true },
+      { "matn": "Farg‘ona", "correct": false },
+      { "matn": "So‘g‘diyona", "correct": false }
+    ]
+  },
+  {
+    "id": 853,
+    "savol": "Kimning hukmronligi davrida Yunon-Baqtriya podsholigi eng katta sarhadlarga ega bo‘ldi?",
+    "javob": [
+      { "matn": "Antiox", "correct": false },
+      { "matn": "Diodot", "correct": false },
+      { "matn": "Yevtidem", "correct": false },
+      { "matn": "Demetriy", "correct": true }
+    ]
+  },
+  {
+    "id": 854,
+    "savol": "Mil. avv. nechanchi yillarda Yunon-Baqtriya davlati yuechji qabilalari tomonidan bosib olindi?",
+    "javob": [
+      { "matn": "Mil. avv. 145–135-yillarda", "correct": false },
+      { "matn": "Mil. avv. 150–135-yillarda", "correct": false },
+      { "matn": "Mil. avv. 143–141-yillarda", "correct": false },
+      { "matn": "Mil. avv. 140–130-yillarda", "correct": true }
+    ]
+  },
+  {
+    "id": 855,
+    "savol": "Parfiyada hokimiyat Mitridat I qo‘liga o‘tishi bilan u qanday yo'l tutadi?",
+    "javob": [
+      { "matn": "Baqtriyaga harbiy tazyiqni kuchaytiradi", "correct": true },
+      { "matn": "Baqtriya bilan madaniy aloqalarni uzadi", "correct": false },
+      { "matn": "Baqtriya bilan birga Farg‘onani bosib oladi", "correct": false },
+      { "matn": "Salavkiylar bilan ittifoq tuzadi", "correct": false }
+    ]
+  },
+  {
+    "id": 856,
+    "savol": "Kimning hukmronligi davrida Hindistonning bir qismi Yunon-Baqtriya davlatiga qo‘shib olindi?",
+    "javob": [
+      { "matn": "Yevtidem", "correct": false },
+      { "matn": "Antiox", "correct": false },
+      { "matn": "Diodot", "correct": false },
+      { "matn": "Demetriy", "correct": true }
+    ]
+  },
+  {
+    "id": 857,
+    "savol": "Xorazm davlati aholisi xo‘jaligining asosini qaysi soha tashkil qilgan?",
+    "javob": [
+      { "matn": "Dehqonchilik va chorvachilik", "correct": false },
+      { "matn": "Dehqonchilik", "correct": true },
+      { "matn": "Hunarmandchilik", "correct": false },
+      { "matn": "Chorvachilik", "correct": false }
+    ]
+  },
+  {
+    "id": 858,
+    "savol": "Ko‘zaliqir shahri xarobalari qaysi davrga taaluqli?",
+    "javob": [
+      { "matn": "m.av. IV asr", "correct": false },
+      { "matn": "m.av. VI asr", "correct": false },
+      { "matn": "m. av VII asr", "correct": true },
+      { "matn": "m. av VIII asr", "correct": false }
+    ]
+  },
+  {
+    "id": 859,
+    "savol": "Xorazm qachon Axomaniylar davlatidan ajralib, mustaqil davlatga aylandi?",
+    "javob": [
+      { "matn": "m.av. IV asr", "correct": true },
+      { "matn": "m.av. VI asr", "correct": false },
+      { "matn": "m. av VII asr", "correct": false },
+      { "matn": "m. av VIII asr", "correct": false }
+    ]
+  },
+  {
+    "id": 860,
+    "savol": "Xorazmda shaharsozlikning boshlanishi qaysi davrga borib taqaladi?",
+    "javob": [
+      { "matn": "m.av. IV asr", "correct": false },
+      { "matn": "m.av. VI asr", "correct": false },
+      { "matn": "m. av VII asr", "correct": true },
+      { "matn": "m. av VIII asr", "correct": false }
+    ]
+  },
+  {
+    "id": 861,
+    "savol": "Qaysi shahar xarobalarida mahalliy hukmdorning qarorgohi bo‘lgan ulkan qal’a bunyod etilgan edi?",
+    "javob": [
+      { "matn": "Jonbosqal’a", "correct": false },
+      { "matn": "Qo‘yqirilganqal’a", "correct": false },
+      { "matn": "Qal’aliqir", "correct": true },
+      { "matn": "Ko‘zaliqir", "correct": false }
+    ]
+  },
+  {
+    "id": 862,
+    "savol": "Qaysi shahar miloddan avvalgi III-II asrlarga taaluqli Xorazmning qadimgi shahri bo‘lgan?",
+    "javob": [
+      { "matn": "Tuproqqal’a", "correct": false },
+      { "matn": "Qal’aliqir", "correct": false },
+      { "matn": "Ko‘zaliqir", "correct": false },
+      { "matn": "Jonbosqal’a", "correct": true }
+    ]
+  },
+  {
+    "id": 863,
+    "savol": "Aylana shaklda qurilgan mustahkam ibodatxona qoldiqlari qaysi shahar xarobalaridan topilgan?",
+    "javob": [
+      { "matn": "Jonbosqal’a", "correct": false },
+      { "matn": "Qo‘yqirilganqal’a", "correct": true },
+      { "matn": "Oybo‘yirqal’a", "correct": false },
+      { "matn": "Tuproqqal’a", "correct": false }
+    ]
+  },
+  {
+    "id": 864,
+    "savol": "Quyidagi qaysi sulola yoki hukmdorlar davrida Xorazm ularning tarkibida bo‘lgan?",
+    "javob": [
+      { "matn": "Ahamoniylar", "correct": true },
+      { "matn": "Salavkiylar", "correct": false },
+      { "matn": "Makedoniyalik Aleksandr", "correct": false },
+      { "matn": "Yunon-Baqtriya", "correct": false }
+    ]
+  },
+  {
+    "id": 865,
+    "savol": "Milodiy II-III asrlarda qaysi shaharda ulug‘vor va muhtasham qurilishi ishlari amalga oshirilgan?",
+    "javob": [
+      { "matn": "Qo‘yqirilganqal’a", "correct": false },
+      { "matn": "Jonbosqal’a", "correct": false },
+      { "matn": "Tuproqqal’a", "correct": true },
+      { "matn": "Qal’aliqir", "correct": false }
+    ]
+  },
+  {
+    "id": 866,
+    "savol": "O‘rta Osiyoda eng qadimgi yozuv qayerdan topilgan?",
+    "javob": [
+      { "matn": "Baqtriyadan", "correct": false },
+      { "matn": "Xorazmdan", "correct": true },
+      { "matn": "Sug‘diyonadan", "correct": false },
+      { "matn": "Marg‘iyonadan", "correct": false }
+    ]
+  },
+  {
+    "id": 867,
+    "savol": "Oybo‘yirqal’adan topilgan yozuv qaysi davrga taaluqli?",
+    "javob": [
+      { "matn": "Miloddan avvalgi III-II asr", "correct": false },
+      { "matn": "Miloddan avvalgi V-IV asr", "correct": true },
+      { "matn": "Miloddan avvalgi I asr - milodiy I asr", "correct": false },
+      { "matn": "Milodiy II-III asr", "correct": false }
+    ]
+  },
+  {
+    "id": 868,
+    "savol": "Qo‘yqirilganqal’adan topilgan mahalliy yozuv namunalari qaysi davrga tegishli?",
+    "javob": [
+      { "matn": "Miloddan avvalgi V-IV asr", "correct": false },
+      { "matn": "Miloddan avvalgi III-II asr", "correct": true },
+      { "matn": "Miloddan avvalgi I asr - milodiy I asr", "correct": false },
+      { "matn": "Milodiy II-III asr", "correct": false }
+    ]
+  },
+  {
+    "id": 869,
+    "savol": "Qaysi manbalarda Qang‘ davlati Qang‘yuy deb atalgan?",
+    "javob": [
+      { "matn": "Qadimgi yunon manbalarida", "correct": false },
+      { "matn": "Xitoy manbalarida", "correct": true },
+      { "matn": "Behistun bitiklarida", "correct": false },
+      { "matn": "Avesto manbalarida", "correct": false }
+    ]
+  },
+  {
+    "id": 870,
+    "savol": "Qang‘ davlatiga qachon asos solingan?",
+    "javob": [
+      { "matn": "Miloddan avvalgi II asrda", "correct": false },
+      { "matn": "Miloddan avvalgi I asrda", "correct": false },
+      { "matn": "Miloddan avvalgi III asrda", "correct": true },
+      { "matn": "Milodiy I asrda", "correct": false }
+    ]
+  },
+  {
+    "id": 871,
+    "savol": "Qang‘ davlatiga kimlar asos solgan?",
+    "javob": [
+      { "matn": "Massagetlar", "correct": false },
+      { "matn": "Dasht ko‘chmanchilari", "correct": false },
+      { "matn": "Saklar", "correct": true },
+      { "matn": "Davanliklar", "correct": false }
+    ]
+  },
+  {
+    "id": 872,
+    "savol": "Qang‘ davlatining geografik o‘rnini aniqlang?",
+    "javob": [
+      { "matn": "Janubiy Qozog‘iston va Toshkent vohasi", "correct": false },
+      { "matn": "Sirdaryoning yuqori oqimi va Toshkent vohasi", "correct": false },
+      { "matn": "Sirdaryoning quyi oqimi", "correct": false },
+      { "matn": "Toshkent vohasi", "correct": true }
+    ]
+  },
+  {
+    "id": 873,
+    "savol": "Qang‘ davlatining poytaxtini aniqlang?",
+    "javob": [
+      { "matn": "Qang‘dez", "correct": true },
+      { "matn": "Qang‘guy", "correct": false },
+      { "matn": "Ershi", "correct": false },
+      { "matn": "Sho‘rabashat", "correct": false }
+    ]
+  },
+  {
+    "id": 874,
+    "savol": "Xitoy manbalarida Qang‘dez qanday atalgan?",
+    "javob": [
+      { "matn": "Bityan", "correct": true },
+      { "matn": "Ershi", "correct": false },
+      { "matn": "Qanqa", "correct": false },
+      { "matn": "Davan", "correct": false }
+    ]
+  },
+  {
+    "id": 875,
+    "savol": "Qang‘ davlatining asosiy shaharlari qayerlarda joylashgan?",
+    "javob": [
+      { "matn": "Sirdaryo sohillari bo‘ylarida", "correct": true },
+      { "matn": "Ohangaron vodiysi va Farg‘onada", "correct": false },
+      { "matn": "Pomir va Farg‘ona vodiysida", "correct": false },
+      { "matn": "Janubiy Qozog‘iston va Toshkent vohasida", "correct": false }
+    ]
+  },
+  {
+    "id": 876,
+    "savol": "Qang‘ davlati qachon qudratli davlatga aylandi?",
+    "javob": [
+      { "matn": "Miloddan avvalgi II oxirlarida", "correct": true },
+      { "matn": "Miloddan avvalgi I oxiri va milodiy I asrda", "correct": false },
+      { "matn": "Miloddan avvalgi I asr o‘rtalarida", "correct": false },
+      { "matn": "Miloddan avvalgi II asr o‘rtalarida", "correct": false }
+    ]
+  },
+  {
+    "id": 877,
+    "savol": "Qang‘ davlatining qaysi hududlarida o‘troq ziroatchilik va hunarmandchilik madaniyati vujudga kelgan?",
+    "javob": [
+      { "matn": "Sirdaryoning quyi va yuqori oqimida joylashgan shaharlarda", "correct": false },
+      { "matn": "Janubiy Qozog‘iston hududlarida", "correct": false },
+      { "matn": "Toshkent vohasida", "correct": true },
+      { "matn": "Farg‘ona vodiysida", "correct": false }
+    ]
+  },
+  {
+    "id": 878,
+    "savol": "Qang‘ davlatining ko‘chmanchi qabilalar bilan urushlarining kelib chiqishiga asosiy sabab nima bo'lgan?",
+    "javob": [
+      { "matn": "Buyuk ipak yo‘lining shimoliy tarmog‘i o‘tganligi sababli iqtisodiyotning gullashi", "correct": true },
+      { "matn": "O‘troq ziroatchilik madaniyatining vujudga kelganligi", "correct": false },
+      { "matn": "Hunarmandchilik sohalarining rivojlanganligi", "correct": false },
+      { "matn": "Xitoy va Sharq karvonlarining faqat Qang‘dan o‘tganligi", "correct": false }
+    ]
+  },
+  {
+    "id": 879,
+    "savol": "Qang‘ davlati qachon parchalanib ketdi?",
+    "javob": [
+      { "matn": "Miloddan avvalgi I asr oxirida", "correct": false },
+      { "matn": "Milodiy I asrda", "correct": false },
+      { "matn": "Miloddan avvalgi II asrda", "correct": false },
+      { "matn": "Milodiy II asrda", "correct": true }
+    ]
+  },
+  {
+    "id": 880,
+    "savol": "Davan davlati nomi qaysi manbalarda shu nom bilan tilga olingan?",
+    "javob": [
+      { "matn": "Behistun bitiklarida", "correct": false },
+      { "matn": "Avesto manbalarida", "correct": false },
+      { "matn": "Rim va yunon tarixchilari asarlarida", "correct": false },
+      { "matn": "Xitoy manbalarida", "correct": true }
+    ]
+  },
+  {
+    "id": 881,
+    "savol": "Davan davlatining geografik o‘rnini aniqlang?",
+    "javob": [
+      { "matn": "Janubiy Qozog‘iston va Toshkent vohasi", "correct": false },
+      { "matn": "Farg‘ona vodiysida", "correct": true },
+      { "matn": "Toshkent vohasida", "correct": false },
+      { "matn": "Sirdaryoning quyi va yuqori oqimida", "correct": false }
+    ]
+  },
+  {
+    "id": 882,
+    "savol": "Davan davlati qachon tashkil topgan?",
+    "javob": [
+      { "matn": "Miloddan avvalgi II asrda", "correct": false },
+      { "matn": "Miloddan avvalgi I asrda", "correct": false },
+      { "matn": "Miloddan avvalgi III asrda", "correct": true },
+      { "matn": "Milodiy I asrda", "correct": false }
+    ]
+  },
+  {
+    "id": 883,
+    "savol": "Xitoy hukmdorlari O'rta Osiyoning qaysi hududidagi zotli otlar nasliga qiziqqanlar?",
+    "javob": [
+      { "matn": "Farg‘ona", "correct": true },
+      { "matn": "Toshkent vohasi", "correct": false },
+      { "matn": "Xorazm", "correct": false },
+      { "matn": "Sug‘diyona", "correct": false }
+    ]
+  },
+  {
+    "id": 884,
+    "savol": "Davan davlatining poytaxti qaysi shahar bo'lgan?",
+    "javob": [
+      { "matn": "Qang‘dez", "correct": false },
+      { "matn": "Ershi", "correct": true },
+      { "matn": "Sho'rabashat", "correct": false },
+      { "matn": "Uchqo‘rg‘on", "correct": false }
     ]
   }
 
